@@ -1,0 +1,880 @@
+
+  
+  
+  
+  
+  Test drive  - Flutter 
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+Docs
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+Showcase
+
+
+Community
+
+
+
+
+
+
+
+
+
+Get started
+
+
+
+
+      Flutter 1.0 has been released!
+      Learn more.
+    
+
+      Help improve Flutter! 
+      Take our survey.
+    
+
+
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+
+
+
+Set up an editor
+
+
+Write your first Flutter app
+
+
+
+
+
+
+
+
+
+
+
+
+Test drive
+
+
+Docs
+
+
+Get started
+
+
+Test drive
+
+
+
+
+
+This page describes how to create a new Flutter app from templates, run it, and experience “hot reload” after you make changes to the app.
+Select your development tool of choice for writing, building, and running
+Flutter apps.
+
+
+Android Studio / IntelliJ
+
+
+Visual Studio Code
+
+
+Terminal & editor
+
+
+
+
+Create the app
+
+Select File > New Flutter Project.
+Select Flutter application as the project type, and press Next.
+Make sure that the Flutter SDK Path text field specifies the
+location of the SDK. Install the SDK if you haven’t yet done so.
+Enter a project name (for example, myapp), and press Next.
+Click Finish.
+Wait for Android Studio to install the SDK, and create the project.
+
+The above commands create a Flutter project directory called myapp that
+contains a simple demo app that uses Material Components.
+
+ Tip:
+  The code for your app is in lib/main.dart.
+  For a high-level description of what each code block does, see the
+  comments at the top of that file.
+
+Run the app
+
+Locate the main Android Studio toolbar:
+
+In the target selector, select an Android device for running the app.
+If none are listed as available, select Tools> Android > AVD Manager and
+create one there. For details, see Managing AVDs.
+Click the run icon in the toolbar, or invoke the menu item Run > Run.
+
+After the app build completes, you’ll see the starter app on your device.
+
+
+
+Starter app
+
+
+Try hot reload
+Flutter offers a fast development cycle with hot reload, the ability to reload
+the code of a live running app without restarting or losing app state.
+Make a change to app source, tell your IDE or command-line tool that you
+want to hot reload, and see the change in your simulator, emulator, or device.
+
+Open lib/main.dart.
+
+Change the string
+'You have pushed the button this many times'
+to
+'You have clicked the button this many times'
+
+ Important:
+  Do not stop your app. Let your app run.
+
+
+Save your changes: invoke Save All, or click Hot Reload
+offline_bolt.
+
+You’ll see the updated string in the running app almost immediately.
+
+
+Create the app
+
+Invoke View > Command Palette.
+Type “flutter”, and select the Flutter: New Project.
+Enter a project name, such as myapp, and press Enter.
+Create or select the parent directory for the new project folder.
+Wait for project creation to complete and the main.dart
+file to appear.
+
+The above commands create a Flutter project directory called myapp that
+contains a simple demo app that uses Material Components.
+
+ Tip:
+  The code for your app is in lib/main.dart.
+  For a high-level description of what each code block does, see the
+  comments at the top of that file.
+
+Run the app
+
+Locate the VS Code status bar (the blue bar at the bottom of the
+window): 
+Select a device from the Device Selector area.
+For details, see Quickly switching between Flutter devices.
+        
+If no device is available and you want to use a device simulator,
+click No Devices and launch a simulator.
+To setup a real device, follow the device-specific instructions on the
+Install page for your OS.
+
+
+Invoke Debug > Start Debugging or press F5.
+Wait for the app to launch — progress is printed
+in the Debug Console view.
+
+After the app build completes, you’ll see the starter app on your device.
+
+
+
+Starter app
+
+
+Try hot reload
+Flutter offers a fast development cycle with hot reload, the ability to reload
+the code of a live running app without restarting or losing app state.
+Make a change to app source, tell your IDE or command-line tool that you
+want to hot reload, and see the change in your simulator, emulator, or device.
+
+Open lib/main.dart.
+
+Change the string
+'You have pushed the button this many times'
+to
+'You have clicked the button this many times'
+
+ Important:
+  Do not stop your app. Let your app run.
+
+
+Save your changes: invoke File > Save All,
+  or click Hot Reload (the green circular arrow button).
+
+You’ll see the updated string in the running app almost immediately.
+
+
+Create the app
+Use the flutter create command to create a new project:
+$ flutter create myapp
+$ cd myapp
+ 
+The command creates a Flutter project directory called myapp that
+contains a simple demo app that uses
+Material Components.
+
+ Tip:
+  The code for your app is in lib/main.dart.
+  For a high-level description of what each code block does, see the
+  comments at the top of that file.
+
+Run the app
+
+
+Check that an Android device is running. If none are shown, follow the
+device-specific instructions on the Install page for your OS.
+$ flutter devices
+ 
+
+
+Run the app with the following command:
+$ flutter run
+ 
+
+
+After the app build completes, you’ll see the starter app on your device.
+
+
+
+Starter app
+
+
+Try hot reload
+Flutter offers a fast development cycle with hot reload, the ability to reload
+the code of a live running app without restarting or losing app state.
+Make a change to app source, tell your IDE or command-line tool that you
+want to hot reload, and see the change in your simulator, emulator, or device.
+
+Open lib/main.dart.
+
+Change the string
+'You have pushed the button this many times'
+to
+'You have clicked the button this many times'
+
+ Important:
+  Do not stop your app. Let your app run.
+
+
+Save your changes.
+Type r in the terminal window.
+
+You’ll see the updated string in the running app almost immediately.
+
+
+Next step
+You’ll next learn some core Flutter concepts by creating a small app.
+
+
+
+Set up an editor
+
+
+Write your first Flutter app
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flutter-dev@
+terms
+security
+privacy
+español
+社区中文资源
+
+
+            Except as otherwise noted,
+            this work is licensed under a
+            Creative
+            Commons Attribution 4.0 International License,
+            and code samples are licensed under the BSD License.
+          
+
+
+
+
+

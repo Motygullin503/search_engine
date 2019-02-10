@@ -1,0 +1,570 @@
+
+  
+  
+  
+  
+  Community  - Flutter 
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+Docs
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+Showcase
+
+
+Community
+
+
+
+
+
+
+
+
+
+Get started
+
+
+
+
+      Flutter 1.0 has been released!
+      Learn more.
+    
+
+      Help improve Flutter! 
+      Take our survey.
+    
+
+
+
+
+
+Welcome to the Flutter community
+
+            We're open source and would love to hear from you! Below you'll find
+            ways to get involved in the Flutter community as well as links to
+            resources that can help answer your questions.
+            If you're in China, read
+            Using Flutter in China.
+        
+
+
+
+
+
+
+
+
+
+Tell us what you want to see
+An easy way to send feedback is to “thumbs up” issues important to you on GitHub
+
+See the issue tracker
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Meet others using Flutter in your area
+Learn from other developers and see what the community is building with Flutter by joining community events around the world
+
+Find an event near you
+
+
+
+
+
+
+
+
+
+
+
+Join the conversation
+
+                    Get answers to your questions and stay up to date with everything new and exciting happening in the
+                    Flutter community by checking out the links below
+                
+
+
+
+
+
+
+
+Stack Overflow
+Ask questions and trouble shoot your app builds through the strong community message boards.
+
+
+
+Learn more
+
+
+
+
+
+
+Gitter
+Join the conversation and stay connected with developers around the globe building with Flutter.
+
+
+
+Learn more
+
+
+
+
+
+
+Google Groups
+Ask questions and trouble shoot your builds with the support of the Google community. Or sign up for Flutter announcements.
+
+
+
+
+
+                                        Learn more
+                                    
+
+flutter-announce
+flutter-dev
+
+
+
+
+
+
+
+
+
+
+@flutter.io
+Follow the Flutter team in real-time with information on new features, upcoming events, and more.
+
+
+
+Learn more
+
+
+
+
+
+
+Medium
+Get the latest news and insights from a diverse group of users building with Flutter.
+
+
+
+Learn more
+
+
+
+
+
+
+Flutter Study Group
+Connect and work through problems with a group of knowledgeable Flutter team members.
+
+
+
+Learn more
+
+
+
+
+
+
+
+
+Flutter YouTube
+Watch these videos to learn from Google and developers as you build with Flutter.
+
+
+
+Learn more
+
+
+
+
+
+
+r/FlutterDev
+Join the large community on Reddit with discussions around every aspect of Flutter.
+
+
+
+Learn more
+
+
+
+
+
+
+Discord
+Talk to other Flutter developers about everything Flutter-related, and share useful resources.
+
+
+
+Learn more
+
+
+
+
+
+
+
+
+UX Research
+Sign up to participate in the UX research plan and have a front row seat into the progression of Flutter.
+
+
+
+Learn more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flutter-dev@
+terms
+security
+privacy
+español
+社区中文资源
+
+
+            Except as otherwise noted,
+            this work is licensed under a
+            Creative
+            Commons Attribution 4.0 International License,
+            and code samples are licensed under the BSD License.
+          
+
+
+
+
+

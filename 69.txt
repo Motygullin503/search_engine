@@ -1,0 +1,740 @@
+
+  
+  
+  
+  
+  Flutter's build modes  - Flutter 
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+Docs
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+Showcase
+
+
+Community
+
+
+
+
+
+
+
+
+
+Get started
+
+
+
+
+      Flutter 1.0 has been released!
+      Learn more.
+    
+
+      Help improve Flutter! 
+      Take our survey.
+    
+
+
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+
+    Contents
+    
+    
+
+Debug
+Release
+Profile
+
+
+
+
+
+
+
+
+
+
+
+
+Flutter's build modes
+
+
+
+    Contents
+    
+
+Debug
+Release
+Profile
+
+
+The Flutter tooling supports three modes when compiling your app,
+and a headless mode for testing.
+This doc explains the three modes and tells you when to use which.
+For more information on headless testing, see
+Unit testing.
+You choose the compilation mode depending on where you are in
+the development cycle. Are you debugging your code? Do you
+need profiling information? Are you ready to deploy your app?
+The following describes each mode and when to use it.
+
+Debug
+In debug mode, the app is set up for debugging on the physical
+device, emulator, or simulator. Debug mode means that:
+
+
+Assertions
+ are enabled.
+
+Observatory is enabled,
+ allowing you to use the dart debugger.
+Service extensions are enabled.
+Compilation is optimized for fast development and run cycles (but not for
+execution speed, binary size, or deployment.)
+
+By default, flutter run compiles to debug mode.
+Your IDE also supports these modes. Android Studio,
+for example, provides a Run > Debug… menu option, as well
+as an triangular green run button icon on the project page.
+(The menu item shows a pic of the corresponding icon.)
+The emulator and simulator execute only in debug mode.
+
+Release
+Use release mode for deploying the app, when you want maximum
+optimization and minimal footprint size. Release mode, which is not
+supported on the simulator or emulator, means that:
+
+Assertions are disabled.
+Debugging information is stripped out.
+Debugging is disabled.
+Compilation is optimized for fast startup, fast execution, and small
+package sizes.
+Service extensions are disabled.
+
+The command flutter run --release compiles to release mode.
+Your IDE also supports these modes.  Android Studio, for example,
+provides a Run > Run… menu option, as well as a green bug
+icon overlayed with a small triangle on the project page.
+(The menu item shows a pic of the corresponding icon.)
+You can also compile to release mode with flutter build.
+For more information, see the docs on releasing
+iOS and Android apps.
+
+Profile
+In profile mode, some debugging ability is maintained—enough
+to profile your app’s performance. Profile mode is disabled on
+the emulator and simulator, because their behavior is not representative
+of real performance. Profile mode is similar to release mode, with
+the following differences:
+
+Some service extensions, such as the one that enables the performance
+overlay, are enabled.
+Tracing is enabled, and Observatory can connect to the process.
+
+The command flutter run --profile compiles to profile mode.
+Your IDE also supports these modes. Android Studio, for example,
+provides a Run > Profile… menu option.
+For more information on these modes, see
+Flutter’s modes
+in the Flutter SDK wiki.
+
+
+
+
+
+
+
+
+
+
+
+
+flutter-dev@
+terms
+security
+privacy
+español
+社区中文资源
+
+
+            Except as otherwise noted,
+            this work is licensed under a
+            Creative
+            Commons Attribution 4.0 International License,
+            and code samples are licensed under the BSD License.
+          
+
+
+
+
+

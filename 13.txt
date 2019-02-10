@@ -1,0 +1,252 @@
+
+  
+  
+  
+  
+  
+  
+  Dart Language | Dart
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+    
+
+
+
+
+
+
+Get Started
+Language
+Libraries
+Tools
+
+Dart 2
+
+1.24.3  (archive)2.1.0  (stable)
+
+Migration guide
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search 
+
+
+
+
+Get Started
+
+
+Language
+
+Tour
+
+
+Effective Dart
+
+
+Style
+
+Documentation
+
+Usage
+
+Design
+
+
+Sample Code
+
+Libraries
+
+Tour
+
+Platforms
+
+Mobile (Flutter)
+
+Web
+
+Server
+
+Testing
+
+Resources
+
+Install
+
+Codelabs
+
+Tutorials
+
+Tools
+
+Community and Support
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Overview: The Dart Language
+
+These two resources are popular with both beginning Dartisans and experts.
+
+
+A Tour of the Dart Language
+A walk through all of Dart's major language features.
+
+
+Effective Dart
+A set of guides that show you how to write the best Dart code
+    possible. There are guides on Dart style, documentation, usage,
+    and design.
+
+
+Other resources
+
+
+Dart’s Type System
+    Learn about Dart’s sound type system.
+
+
+
+Fixing Common Type Problems
+   How to fix errors and warnings you may encounter.
+
+
+
+Customize Static Analysis
+    A guide on customizing the analyzer using an analysis options file.
+
+
+Asynchronous programming
+
+
+Futures
+    A beginner’s guide to handling asynchronous programming in Dart.
+
+
+Streams
+    A beginner’s guide to handling sequences of asynchronous events.
+
+
+
+
+Language articles
+    Articles about language features such as mixins and asynchrony support.
+
+
+Specification
+    A definitive, highly technical description of the Dart language.
+
+
+
+
+
+
+
+
+
+
+
+
+Terms | Privacy
+
+Site CC BY 3.0
+
+
+               
+              
+               
+              build
+
+
+
+
+
+
+Technologies
+
+Mobile (Flutter)
+Dart for the web
+Server-side Dart
+Observatory
+Dart libraries
+Dart programming language
+
+
+
+
+
+Resources
+
+API reference
+DartPad
+Pub packages
+Dart news
+Dart bugs and  feature requests
+
+
+
+
+
+Community
+
+Support & mailing lists
+Who uses Dart
+Stack Overflow
+G+ community &
+                announcement group
+Gitter chat rooms
+
+
+
+
+
+

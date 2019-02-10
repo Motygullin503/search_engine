@@ -1,0 +1,902 @@
+
+  
+  
+  
+  
+  Continuous Delivery using fastlane with Flutter  - Flutter 
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+Docs
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+Showcase
+
+
+Community
+
+
+
+
+
+
+
+
+
+Get started
+
+
+
+
+      Flutter 1.0 has been released!
+      Learn more.
+    
+
+      Help improve Flutter! 
+      Take our survey.
+    
+
+
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+
+    Contents
+    
+    
+
+Local setup
+Running deployment locally
+Cloud build and deploy setup
+Reference
+
+
+
+
+
+
+
+
+
+
+
+
+Continuous Delivery using fastlane with Flutter
+
+
+
+    Contents
+    
+
+Local setup
+Running deployment locally
+Cloud build and deploy setup
+Reference
+
+
+Follow continuous delivery best practices with Flutter to make sure your
+application is delivered to your beta testers and validated on a frequent basis
+without resorting to manual workflows.
+This guide shows how to integrate fastlane, an
+open-source tool suite, with your existing testing and continuous integration
+(CI) workflows (for example, Travis or Cirrus).
+
+Local setup
+It’s recommended that you test the build and deployment process locally before
+migrating to a cloud-based system. You could also choose to perform continuous
+delivery from a local machine.
+
+Install fastlane gem install fastlane or brew cask install fastlane.
+Create your Flutter project, and when ready, make sure that your project builds via
+    
+
+ flutter build apk --release; and
+
+ flutter build ios --release --no-codesign.
+
+
+Initialize the fastlane projects for each platform.
+    
+
+ In your [project]/android
+ directory, run fastlane init.
+
+ In your [project]/ios directory,
+ run fastlane init.
+
+
+Edit the Appfiles to ensure they have adequate metadata for your app.
+    
+
+ Check that package_name in
+ [project]/android/Appfile matches your package in pubspec.yaml.
+
+ Check that app_identifier in
+ [project]/ios/Appfile also matches. Fill in apple_id, itc_team_id,
+ team_id with your respective account info.
+
+
+Set up your local login credentials for the stores.
+    
+
+ Follow the Supply setup steps
+ and ensure that fastlane supply init successfully syncs data from your
+ Play Store console. Treat the .json file like your password and do not check
+ it into any public source control repositories.
+
+
+ Your iTunes Connect username is already
+ in your Appfile’s apple_id field. Set the FASTLANE_PASSWORD shell
+ environment variable with your iTunes Connect password. Otherwise, you’ll be
+ prompted when uploading to iTunes/TestFlight.
+
+
+Set up code signing.
+    
+
+ On Android, there are two
+ signing keys: deployment and upload. The end-users download the .apk signed
+ with the ‘deployment key’. An ‘upload key’ is used to authenticate the .apk
+ uploaded by developers onto the Play Store and is re-signed with the
+ deployment key once in the Play Store.
+        
+It’s highly recommended to use the automatic cloud managed signing for
+  the deployment key. For more information, see the official Play Store documentation.
+Follow the key generation
+steps
+  to create your upload key.
+Configure gradle to use your upload key when building your app in
+  release mode by editing android.buildTypes.release in
+  [project]/android/app/build.gradle.
+
+
+
+ On iOS, create and sign using a
+ distribution certificate instead of a development certificate when you’re
+ ready to test and deploy using TestFlight or App Store.
+        
+Create and download a distribution certificate in your Apple Developer Account console.
+
+open [project]/ios/Runner.xcworkspace/ and select the distribution
+  certificate in your target’s settings pane.
+
+
+
+
+Create a Fastfile script for each platform.
+    
+
+ On Android, follow the
+ fastlane Android beta deployment guide.
+ Your edit could be as simple as adding a lane that calls upload_to_play_store.
+ Set the apk argument to ../build/app/outputs/apk/release/app-release.apk
+ to use the apk flutter build already built.
+
+ On iOS, follow the fastlane iOS beta deployment guide.
+ Your edit could be as simple as adding a lane that calls build_ios_app with
+ export_method: 'app-store' and upload_to_testflight. On iOS an extra
+ build is required since flutter build builds an .app rather than archiving
+ .ipas for release.
+
+
+
+You’re now ready to perform deployments locally or migrate the deployment
+process to a continuous integration (CI) system.
+
+Running deployment locally
+
+Build the release mode app.
+    
+
+ flutter build apk --release.
+
+ flutter build ios --release --no-codesign.
+ No need to sign now since fastlane will sign when archiving.
+
+
+Run the Fastfile script on each platform.
+    
+
+ cd android then
+ fastlane [name of the lane you created].
+
+ cd ios then
+ fastlane [name of the lane you created].
+
+
+
+
+Cloud build and deploy setup
+First, follow the local setup section described in ‘Local setup’ to make sure
+the process works before migrating onto a cloud system like Travis.
+The main thing to consider is that since cloud instances are ephemeral and
+untrusted, you won’t be leaving your credentials like your Play Store service
+account JSON or your iTunes distribution certificate on the server.
+Continuous Integration (CI) systems, such as
+Cirrus
+generally support encrypted environment variables to store private data.
+Take precaution not to re-echo those variable values back onto the console in
+your test scripts. Those variables are also not available in pull requests
+until they’re merged to ensure that malicious actors cannot create a pull
+request that prints these secrets out. Be careful with interactions with these
+secrets in pull requests that you accept and merge.
+
+Make login credentials ephemeral.
+    
+
+ On Android:
+        
+Remove the json_key_file field from Appfile and store the string
+  content of the JSON in your CI system’s encrypted variable. Use the
+  json_key_data argument in upload_to_play_store to read the
+  environment variable directly in your Fastfile.
+Serialize your upload key (for example, using base64) and save it as
+  an encrypted environment variable. You can deserialize it on your CI
+  system during the install phase with
+            
+  echo "$PLAY_STORE_UPLOAD_KEY" | base64 --decode > /home/cirrus/[directory # and filename specified in your gradle].keystore
+ 
+
+
+
+
+ On iOS:
+        
+Move the local environment variable FASTLANE_PASSWORD to use
+  encrypted environment variables on the CI system.
+The CI system needs access to your distribution certificate. fastlane’s
+  Match system is
+  recommended to synchronize your certificates across machines.
+
+
+
+
+It’s recommended to use a Gemfile instead of using an indeterministic
+gem install fastlane on the CI system each time to ensure the fastlane
+dependencies are stable and reproducible between local and cloud machines. However, this step is optional.
+    
+In both your [project]/android and [project]/ios folders, create a
+ Gemfile containing the following content:
+        
+source "https://rubygems.org"
+
+gem "fastlane"
+ 
+
+In both directories, run bundle update and check both Gemfile and
+ Gemfile.lock into source control.
+When running locally, use bundle exec fastlane instead of fastlane.
+
+
+Create the CI test script such as .travis.yml or .cirrus.yml in your
+repository root.
+    
+Shard your script to run on both Linux and macOS platforms.
+Remember to specify a dependency on Xcode for macOS (for example
+ osx_image: xcode9.2).
+See fastlane CI documentation for CI specific setup.
+During the setup phase, depending on the platform, make sure that:
+        
+Bundler is available using gem install bundler.
+For Android, make sure the Android SDK is available and the ANDROID_HOME
+   path is set.
+Run bundle install in [project]/android or [project]/ios.
+Make sure the Flutter SDK is available and set in PATH.
+
+
+In the script phase of the CI task:
+        
+Run flutter build apk --release or flutter build ios --release --no-codesign depending on the platform.
+
+cd android or cd ios.
+
+bundle exec fastlane [name of the lane].
+
+
+
+
+
+
+Reference
+The Flutter Gallery in the Flutter
+repo
+uses fastlane for continuous deployment. See the source for a working example
+of fastlane in action. Also see the Flutter framework repository’s
+Cirrus script.
+
+
+
+
+
+
+
+
+
+
+
+
+flutter-dev@
+terms
+security
+privacy
+español
+社区中文资源
+
+
+            Except as otherwise noted,
+            this work is licensed under a
+            Creative
+            Commons Attribution 4.0 International License,
+            and code samples are licensed under the BSD License.
+          
+
+
+
+
+

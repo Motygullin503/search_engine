@@ -1,0 +1,784 @@
+
+  
+  
+  
+  
+  List of state management approaches  - Flutter 
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+Docs
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+Showcase
+
+
+Community
+
+
+
+
+
+
+
+
+
+Get started
+
+
+
+
+      Flutter 1.0 has been released!
+      Learn more.
+    
+
+      Help improve Flutter! 
+      Take our survey.
+    
+
+
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+
+    Contents
+    
+    
+
+General overview
+setState
+InheritedWidget & Scoped model
+Redux
+BLoC / Rx
+
+
+
+
+
+
+Simple app state management
+
+
+
+
+
+
+
+
+
+
+
+
+List of state management approaches
+
+
+Docs
+
+
+Development
+
+
+Data & backend
+
+
+State management
+
+
+List of state management approaches
+
+
+
+
+
+
+
+    Contents
+    
+
+General overview
+setState
+InheritedWidget & Scoped model
+Redux
+BLoC / Rx
+
+
+State management is a complex topic. If you feel that some of your questions haven’t been answered, or that the approach described on these pages is not viable for your use cases, you are probably right.
+Learn more at the following links, many of which have been contributed by the Flutter community:
+
+General overview
+
+
+Build reactive mobile apps with Flutter,
+a video from Google I/O 2018, and an
+accompanying article
+
+
+Flutter Architecture Samples, by Brian Egan
+
+
+setState
+
+
+Adding interactivity to your Flutter app,
+a Flutter tutorial
+
+Basic state management in Google Flutter,
+by Agung Surya
+
+
+InheritedWidget & Scoped model
+
+
+Using Flutter Inherited Widgets Effectively,
+by Eric Windmill
+
+You might not need Redux: The Flutter edition, by Ryan Edge
+
+Managing state with the scoped model pattern in Dart’s Flutter framework, a video by Tensor Programming
+
+Flutter: Inherited Widget and Scoped Model Explained, part 1,
+a video by MTechViral
+Flutter state management—scoped model
+Scoped model package
+
+
+Redux
+
+
+Animation Management with Redux and Flutter, a video from DartConf 2018 Accompanying article on Medium
+
+
+Flutter Redux package on the Pub site
+
+
+Introduction to Redux in Flutter, by Xavi Rigau
+
+Flutter + Redux—How to make a shopping list app,
+by Paulina Szklarska on Hackernoon
+
+Building a TODO application (CRUD) in Flutter with Redux—Part 1,
+a video by Tensor Programming
+
+Flutter Redux Thunk, an example,
+by Jack Wong
+
+Building a (large) Flutter app with Redux,
+by Hillel Coren
+
+
+BLoC / Rx
+
+
+State Management Using BLoC pattern in Flutter, 
+by Saowen
+
+Architect your Flutter project using BLOC pattern,
+by Sagar Suri
+
+Example using BLoC pattern for state management,
+by CodyLeet on reddit
+
+
+
+
+Simple app state management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flutter-dev@
+terms
+security
+privacy
+español
+社区中文资源
+
+
+            Except as otherwise noted,
+            this work is licensed under a
+            Creative
+            Commons Attribution 4.0 International License,
+            and code samples are licensed under the BSD License.
+          
+
+
+
+
+

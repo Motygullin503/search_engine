@@ -1,0 +1,2796 @@
+
+  
+  
+  
+  
+  Flutter widget index  - Flutter 
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+Docs
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+Showcase
+
+
+Community
+
+
+
+
+
+
+
+
+
+Get started
+
+
+
+
+      Flutter 1.0 has been released!
+      Learn more.
+    
+
+      Help improve Flutter! 
+      Take our survey.
+    
+
+
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Flutter widget index
+
+This is an alphabetical list of nearly every widget that is bundled with
+Flutter. You can also browse widgets by category.
+
+
+
+
+
+
+
+
+AbsorbPointer
+A widget that absorbs pointers during hit testing. When absorbing is true, this widget prevents its subtree from receiving pointer events by terminating hit testing at itself. It still consumes space during layout and paints its child as usual. It just prevents its children from being the target of located events, because it returns true from RenderBox.hitTest.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AlertDialog
+Alerts are urgent interruptions requiring acknowledgement that inform the user about a situation. The AlertDialog widget implements this component.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Align
+A widget that aligns its child within itself and optionally sizes itself based on the child's size.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AnimatedBuilder
+A general-purpose widget for building animations. AnimatedBuilder is useful for more complex widgets that wish to include an animation as part of a larger build function. To use AnimatedBuilder, simply construct the widget and pass it a builder function.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AnimatedContainer
+A container that gradually changes its values over a period of time.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AnimatedCrossFade
+A widget that cross-fades between two given children and animates itself between their sizes.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AnimatedDefaultTextStyle
+Animated version of DefaultTextStyle which automatically transitions the default text style (the text style to apply to descendant Text widgets without explicit style) over a given duration whenever the given style changes.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AnimatedListState
+The state for a scrolling container that animates items when they are inserted or removed.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AnimatedModalBarrier
+A widget that prevents the user from interacting with widgets behind itself.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AnimatedOpacity
+Animated version of Opacity which automatically transitions the child's opacity over a given duration whenever the given opacity changes.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AnimatedPhysicalModel
+Animated version of PhysicalModel.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AnimatedPositioned
+Animated version of Positioned which automatically transitions the child's position over a given duration whenever the given position changes.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AnimatedSize
+Animated widget that automatically transitions its size over a given duration whenever the given child's size changes.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AnimatedWidget
+A widget that rebuilds when the given Listenable changes value.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AnimatedWidgetBaseState
+A base class for widgets with implicit animations.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Appbar
+A Material Design app bar. An app bar consists of a toolbar and potentially other widgets, such as a TabBar and a FlexibleSpaceBar.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AspectRatio
+A widget that attempts to size the child to a specific aspect ratio.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+AssetBundle
+Asset bundles contain resources, such as images and strings, that can be used by an application. Access to these resources is asynchronous so that they can be transparently loaded over a network (e.g., from a NetworkAssetBundle) or from the local file system without blocking the application's user interface.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+BackdropFilter
+A widget that applies a filter to the existing painted content and then paints child. This effect is relatively expensive, especially if the filter is non-local, such as a blur.
+
+
+Documentation
+
+
+
+
+
+Abc 
+
+
+
+Baseline
+A widget that positions its child according to the child's baseline.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+BottomNavigationBar
+Bottom navigation bars make it easy to explore and switch between top-level views in a single tap. The BottomNavigationBar widget implements this component.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+BottomSheet
+Bottom sheets slide up from the bottom of the screen to reveal more content. You can call showBottomSheet() to implement a persistent bottom sheet or showModalBottomSheet() to implement a modal bottom sheet.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+ButtonBar
+A horizontal arrangement of buttons.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Card
+A Material Design card. A card has slightly rounded corners and a shadow.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Center
+A widget that centers its child within itself.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Checkbox
+Checkboxes allow the user to select multiple options from a set. The Checkbox widget implements this component.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Chip
+A Material Design chip. Chips represent complex entities in small blocks, such as a contact.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CircularProgressIndicator
+A material design circular progress indicator, which spins to indicate that the application is busy.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+ClipOval
+A widget that clips its child using an oval.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+ClipPath
+A widget that clips its child using a path.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+ClipRect
+A widget that clips its child using a rectangle.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Column
+Layout a list of child widgets in the vertical direction.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+ConstrainedBox
+A widget that imposes additional constraints on its child.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Container
+A convenience widget that combines common painting, positioning, and sizing widgets.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoActionSheet
+An iOS-style modal bottom action sheet to choose an option among many.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoActivityIndicator
+An iOS-style activity indicator. Displays a circular 'spinner'.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoAlertDialog
+An iOS-style alert dialog.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoButton
+An iOS-style button.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoDatePicker
+An iOS-style date or date and time picker.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoDialog
+An iOS-style dialog.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoDialogAction
+A button typically used in a CupertinoAlertDialog.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoFullscreenDialogTransition
+An iOS-style transition used for summoning fullscreen dialogs.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoNavigationBar
+An iOS-style top navigation bar. Typically used with CupertinoPageScaffold.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoPageScaffold
+Basic iOS style page layout structure. Positions a navigation bar and content on a background.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoPageTransition
+Provides an iOS-style page transition animation.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoPicker
+An iOS-style picker control. Used to select an item in a short list.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoPopupSurface
+Rounded rectangle surface that looks like an iOS popup surface, such as an alert dialog or action sheet.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoSegmentedControl
+An iOS-style segmented control. Used to select mutually exclusive options in a horizontal list.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoSlider
+Used to select from a range of values.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoSwitch
+An iOS-style switch. Used to toggle the on/off state of a single setting.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoTabBar
+An iOS-style bottom tab bar. Typically used with CupertinoTabScaffold.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoTabScaffold
+Tabbed iOS app structure. Positions a tab bar on top of tabs of content.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoTabView
+Root content of a tab that supports parallel navigation between tabs. Typically used with CupertinoTabScaffold.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoTextField
+An iOS-style text field.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CupertinoTimerPicker
+An iOS-style countdown timer picker.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CustomMultiChildLayout
+A widget that uses a delegate to size and position multiple children.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CustomPaint
+A widget that provides a canvas on which to draw during the paint phase.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CustomScrollView
+A ScrollView that creates custom scroll effects using slivers.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+CustomSingleChildLayout
+A widget that defers the layout of its single child to a delegate.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+DataTable
+Data tables display sets of raw data. They usually appear in desktop enterprise products. The DataTable widget implements this component.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Date & Time Pickers
+Date pickers use a dialog window to select a single date on mobile. Time pickers use a dialog to select a single time (in the hours:minutes format) on mobile.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+DecoratedBox
+A widget that paints a Decoration either before or after its child paints.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+DecoratedBoxTransition
+Animated version of a DecoratedBox that animates the different properties of its Decoration.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+DefaultTextStyle
+The text style to apply to descendant Text widgets without explicit style.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Dismissible
+A widget that can be dismissed by dragging in the indicated direction. Dragging or flinging this widget in the DismissDirection causes the child to slide out of view. Following the slide animation, if resizeDuration is non-null, the Dismissible widget animates its height (or width, whichever is perpendicular to the dismiss direction) to zero over the resizeDuration.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Divider
+A one logical pixel thick horizontal line, with padding on either side.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+DragTarget
+A widget that receives data when a Draggable widget is dropped. When a draggable is dragged on top of a drag target, the drag target is asked whether it will accept the data the draggable is carrying. If the user does drop the draggable on top of the drag target (and the drag target has indicated that it will accept the draggable's data), then the drag target is asked to accept the draggable's data.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Draggable
+A widget that can be dragged from to a DragTarget. When a draggable widget recognizes the start of a drag gesture, it displays a feedback widget that tracks the user's finger across the screen. If the user lifts their finger while on top of a DragTarget, that target is given the opportunity to accept the data carried by the draggable.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Drawer
+A Material Design panel that slides in horizontally from the edge of a Scaffold to show navigation links in an application.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+DropdownButton
+Shows the currently selected item and an arrow that opens a menu for selecting another item.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+ExcludeSemantics
+A widget that drops all the semantics of its descendants. This can be used to hide subwidgets that would otherwise be reported but that would only be confusing. For example, the Material Components Chip widget hides the avatar since it is redundant with the chip label.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Expanded
+A widget that expands a child of a Row, Column, or Flex.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+ExpansionPanel
+Expansion panels contain creation flows and allow lightweight editing of an element. The ExpansionPanel widget implements this component.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+FadeTransition
+Animates the opacity of a widget.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+FittedBox
+Scales and positions its child within itself according to fit.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+FlatButton
+A flat button is a section printed on a Material Components widget that reacts to touches by filling with color.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+FloatingActionButton
+A floating action button is a circular icon button that hovers over content to promote a primary action in the application. Floating action buttons are most commonly used in the Scaffold.floatingActionButton field.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Flow
+A widget that implements the flow layout algorithm.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+FlutterLogo
+The Flutter logo, in widget form. This widget respects the IconTheme.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Form
+An optional container for grouping together multiple form field widgets (e.g. TextField widgets).
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+FormField
+A single form field. This widget maintains the current state of the form field, so that updates and validation errors are visually reflected in the UI.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+FractionalTranslation
+A widget that applies a translation expressed as a fraction of the box's size before painting its child.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+FractionallySizedBox
+A widget that sizes its child to a fraction of the total available space. For more details about the layout algorithm, see RenderFractionallySizedOverflowBox.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+FutureBuilder
+Widget that builds itself based on the latest snapshot of interaction with a Future.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+GestureDetector
+A widget that detects gestures. Attempts to recognize gestures that correspond to its non-null callbacks. If this widget has a child, it defers to that child for its sizing behavior. If it does not have a child, it grows to fit the parent instead.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+GridView
+A grid list consists of a repeated pattern of cells arrayed in a vertical and horizontal layout. The GridView widget implements this component.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Hero
+A widget that marks its child as being a candidate for hero animations.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Icon
+A Material Design icon.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+IconButton
+An icon button is a picture printed on a Material widget that reacts to touches by filling with color (ink).
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+IgnorePointer
+A widget that is invisible during hit testing. When ignoring is true, this widget (and its subtree) is invisible to hit testing. It still consumes space during layout and paints its child as usual. It just cannot be the target of located events, because it returns false from RenderBox.hitTest.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Image
+A widget that displays an image.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+IndexedStack
+A Stack that shows a single child from a list of children.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+IntrinsicHeight
+A widget that sizes its child to the child's intrinsic height.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+IntrinsicWidth
+A widget that sizes its child to the child's intrinsic width.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+LayoutBuilder
+Builds a widget tree that can depend on the parent widget's size.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+LimitedBox
+A box that limits its size only when it's unconstrained.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+LinearProgressIndicator
+A material design linear progress indicator, also known as a progress bar.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+ListBody
+A widget that arranges its children sequentially along a given axis, forcing them to the dimension of the parent in the other axis.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+ListTile
+A single fixed-height row that typically contains some text as well as a leading or trailing icon.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+ListView
+A scrollable, linear list of widgets. ListView is the most commonly used scrolling widget. It displays its children one after another in the scroll direction. In the cross axis, the children are required to fill the ListView.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+LongPressDraggable
+Makes its child draggable starting from long press.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+MaterialApp
+A convenience widget that wraps a number of widgets that are commonly required for applications implementing Material Design.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+MediaQuery
+Establishes a subtree in which media queries resolve to the given data.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+MergeSemantics
+A widget that merges the semantics of its descendants.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Navigator
+A widget that manages a set of child widgets with a stack discipline. Many apps have a navigator near the top of their widget hierarchy in order to display their logical history using an Overlay with the most recently visited pages visually on top of the older pages. Using this pattern lets the navigator visually transition from one page to another by moving the widgets around in the overlay. Similarly, the navigator can be used to show a dialog by positioning the dialog widget above the current page.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+NestedScrollView
+
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+NotificationListener
+A widget that listens for Notifications bubbling up the tree.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Offstage
+A widget that lays the child out as if it was in the tree, but without painting anything, without making the child available for hit testing, and without taking any room in the parent.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Opacity
+A widget that makes its child partially transparent.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+OverflowBox
+A widget that imposes different constraints on its child than it gets from its parent, possibly allowing the child to overflow the parent.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Padding
+A widget that insets its child by the given padding.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+PageView
+A scrollable list that works page by page.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Placeholder
+A widget that draws a box that represents where other widgets will one day be added.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+PopupMenuButton
+Displays a menu when pressed and calls onSelected when the menu is dismissed because an item was selected.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+PositionedTransition
+Animated version of Positioned which takes a specific Animation to transition the child's position from a start position to and end position over the lifetime of the animation.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Radio
+Radio buttons allow the user to select one option from a set. Use radio buttons for exclusive selection if you think that the user needs to see all available options side-by-side. 
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+RaisedButton
+A Material Design raised button. A raised button consists of a rectangular piece of material that hovers over the interface.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+RawImage
+A widget that displays a dart:ui.Image directly.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+RawKeyboardListener
+A widget that calls a callback whenever the user presses or releases a key on a keyboard.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+RefreshIndicator
+A Material Design pull-to-refresh wrapper for scrollables.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+RichText
+The RichText widget displays text that uses multiple different styles. The text to display is described using a tree of TextSpan objects, each of which has an associated style that is used for that subtree. The text might break across multiple lines or might all be displayed on the same line depending on the layout constraints.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+RotatedBox
+A widget that rotates its child by a integral number of quarter turns.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+RotationTransition
+Animates the rotation of a widget.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Row
+Layout a list of child widgets in the horizontal direction.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Scaffold
+Implements the basic Material Design visual layout structure. This class provides APIs for showing drawers, snack bars, and bottom sheets.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+ScaleTransition
+Animates the scale of transformed widget.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+ScrollConfiguration
+Controls how Scrollable widgets behave in a subtree.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Scrollable
+Scrollable implements the interaction model for a scrollable widget, including gesture recognition, but does not have an opinion about how the viewport, which actually displays the children, is constructed.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Scrollbar
+A Material Design scrollbar. A scrollbar indicates which portion of a Scrollable widget is actually visible.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Semantics
+A widget that annotates the widget tree with a description of the meaning of the widgets. Used by accessibility tools, search engines, and other semantic analysis software to determine the meaning of the application.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+SimpleDialog
+Simple dialogs can provide additional details or actions about a list item. For example they can display avatars icons clarifying subtext or orthogonal actions (such as adding an account). 
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+SingleChildScrollView
+A box in which a single widget can be scrolled. This widget is useful when you have a single box that will normally be entirely visible, for example a clock face in a time picker, but you need to make sure it can be scrolled if the container gets too small in one axis (the scroll direction).
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+SizeTransition
+Animates its own size and clips and aligns the child.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+SizedBox
+A box with a specified size. If given a child, this widget forces its child to have a specific width and/or height (assuming values are permitted by this widget's parent). If either the width or height is null, this widget will size itself to match the child's size in that dimension.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+SizedOverflowBox
+A widget that is a specific size but passes its original constraints through to its child, which will probably overflow.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+SlideTransition
+Animates the position of a widget relative to its normal position.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Slider
+Sliders let users select from a range of values by moving the slider thumb. 
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+SliverAppBar
+A material design app bar that integrates with a CustomScrollView.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+SnackBar
+A lightweight message with an optional action which briefly displays at the bottom of the screen.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Stack
+This class is useful if you want to overlap several children in a simple way, for example having some text and an image, overlaid with a gradient and a button attached to the bottom.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Stepper
+A Material Design stepper widget that displays progress through a sequence of steps.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+StreamBuilder
+Widget that builds itself based on the latest snapshot of interaction with a Stream.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Switch
+On/off switches toggle the state of a single settings option. The Switch widget implements this component.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+TabBar
+A Material Design widget that displays a horizontal row of tabs.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+TabBarView
+A page view that displays the widget which corresponds to the currently selected tab. Typically used in conjunction with a TabBar.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Table
+A widget that uses the table layout algorithm for its children.
+
+
+Documentation
+
+
+
+
+
+Abc
+
+
+
+Text
+A run of text with a single style.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+TextField
+Touching a text field places the cursor and displays the keyboard. The TextField widget implements this component.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Theme
+Applies a theme to descendant widgets. A theme describes the colors and typographic choices of an application.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Tooltip
+Tooltips provide text labels that help explain the function of a button or other user interface action. Wrap the button in a Tooltip widget to show a label when the widget long pressed (or when the user takes some other appropriate action).
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Transform
+A widget that applies a transformation before painting its child.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+WidgetsApp
+A convenience class that wraps a number of widgets that are commonly required for an application.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+Wrap
+A widget that displays its children in multiple horizontal or vertical runs.
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flutter-dev@
+terms
+security
+privacy
+español
+社区中文资源
+
+
+            Except as otherwise noted,
+            this work is licensed under a
+            Creative
+            Commons Attribution 4.0 International License,
+            and code samples are licensed under the BSD License.
+          
+
+
+
+
+

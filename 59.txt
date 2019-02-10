@@ -1,0 +1,1112 @@
+
+  
+  
+  
+  
+  Android Studio / IntelliJ  - Flutter 
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+Docs
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+Showcase
+
+
+Community
+
+
+
+
+
+
+
+
+
+Get started
+
+
+
+
+      Flutter 1.0 has been released!
+      Learn more.
+    
+
+      Help improve Flutter! 
+      Take our survey.
+    
+
+
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+
+    Contents
+    
+    
+
+Installation and setup
+
+Updating the plugins
+
+
+Creating projects
+
+Creating a new project
+
+
+
+Creating a new project from existing source code
+
+
+Editing code, and viewing code problems
+Running and debugging
+
+Selecting a target
+Run app without breakpoints
+Run app with breakpoints
+
+
+Fast edit and refresh development cycle
+Advanced debugging
+
+Debugging visual layout issues
+Debugging with Observatory
+
+
+Editing tips for Flutter code
+
+Assists & Quick Fixes
+
+Wrap with new widget assist
+Wrap widget list with new widget assist
+Convert child to children assist
+
+
+Live templates
+Keyboard shortcuts
+Hot reload vs. Full app restart
+
+
+Editing Android code in Android Studio with full IDE support
+Editing Android code in IntelliJ IDEA
+Tips and tricks
+Troubleshooting
+
+Known issues and feedback
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Android Studio / IntelliJ
+
+
+Docs
+
+
+Development
+
+
+Tools
+
+
+Android Studio / IntelliJ
+
+
+
+
+
+
+
+    Contents
+    
+
+Installation and setup
+
+Updating the plugins
+
+
+Creating projects
+
+Creating a new project
+
+
+
+Creating a new project from existing source code
+
+
+Editing code, and viewing code problems
+Running and debugging
+
+Selecting a target
+Run app without breakpoints
+Run app with breakpoints
+
+
+Fast edit and refresh development cycle
+Advanced debugging
+
+Debugging visual layout issues
+Debugging with Observatory
+
+
+Editing tips for Flutter code
+
+Assists & Quick Fixes
+
+Wrap with new widget assist
+Wrap widget list with new widget assist
+Convert child to children assist
+
+
+Live templates
+Keyboard shortcuts
+Hot reload vs. Full app restart
+
+
+Editing Android code in Android Studio with full IDE support
+Editing Android code in IntelliJ IDEA
+Tips and tricks
+Troubleshooting
+
+Known issues and feedback
+
+
+
+
+
+
+Android Studio / IntelliJ
+
+
+Visual Studio Code
+
+
+
+Installation and setup
+Follow the Set up an editor
+instructions to install the Dart and Flutter plugins.
+
+Updating the plugins
+
+Updates to the plugins are shipped on a regular basis. You should get
+prompted in IntelliJ when an update is available.
+To check for updates manually:
+
+Open preferences (Android Studio > Check for Updates on macOS,
+Help > Check for Updates on Linux).
+If dart or flutter are listed, update them.
+
+
+Creating projects
+
+Creating a new project
+To create a new Flutter project from the Flutter starter app template:
+
+In the IDE, click Create New Project from the Welcome window or
+File > New > Project from the main IDE window.
+Select Flutter in the menu, and click Next.
+Enter your desired Project name and Project location.
+If you might publish this app, set the company domain.
+Click Finish.
+
+
+
+Setting the company domain
+When creating a new app, some Flutter IDE plugins ask for an
+  organization name in reverse domain order,
+  something like com.example. Along with the name of the app,
+  this is used as the package name for Android, and the Bundle ID for iOS
+  when the app is released. If you think you might ever release this app,
+  it is better to specify these now. They cannot be changed once the app
+  is released. Your organization name should be unique.
+
+
+Creating a new project from existing source code
+To create a new Flutter project containing existing Flutter source code
+files:
+
+
+In the IDE, click Create New Project from the Welcome window or
+File > New > Project from the main IDE window.
+
+ Important:
+  Do not use the New > Project from existing sources option for Flutter projects.
+
+
+Select Flutter in the menu, and click Next.
+Under Project location enter, or browse to, the directory holding your
+existing Flutter source code files.
+Click Finish.
+
+
+Editing code, and viewing code problems
+The Dart plugin performs code analysis that enables:
+
+Syntax highlighting.
+Code completions based on rich type analysis.
+Navigating to type declarations (Navigate > Declaration), and finding type
+usages (Edit > Find > Find Usages).
+Viewing all current source code problems (View > Tool Windows > Dart Analysis).
+Any analysis issues are shown in the Dart Analysis pane:
+
+
+
+
+Running and debugging
+Running and debugging are controlled from the main toolbar:
+
+
+Selecting a target
+When a Flutter project is open in the IDE, you should see a set of Flutter
+specific buttons on the right-hand side of the toolbar.
+
+ Note:
+  If the Run and Debug buttons are disabled, and no targets are listed,
+  Flutter has not been able to discover any connected iOS or Android devices or
+  simulators.  You need to connect a device, or start a simulator, to proceed.
+
+
+Locate the Flutter Target Selector drop-down button. This shows a
+list of available targets.
+Select the target you want your app to be started on.
+When you connect devices, or start simulators, additional entries appear.
+
+
+Run app without breakpoints
+
+Click the Play icon in the toolbar, or invoke Run > Run.
+The bottom Run pane shows logs output:
+
+
+
+
+Run app with breakpoints
+
+If desired, set breakpoints in your source code.
+Click the Debug icon in the toolbar, or invoke Run > Debug.
+    
+The bottom Debugger pane shows Stack Frames and Variables.
+The bottom Console pane shows detailed logs output.
+Debugging is based on a default launch configuration. To customize this,
+click the drop-down button to the right of the device selector, and select
+Edit configuration.
+
+
+
+
+Fast edit and refresh development cycle
+Flutter offers a best-in-class developer cycle enabling you to see the effect
+of your changes almost instantly with the hot reload feature. See
+Using hot reload for details.
+
+Advanced debugging
+
+Debugging visual layout issues
+To debug a visual issue, start the app with Debug, and then open the Flutter
+inspector tool window using View > Tool Windows > Flutter Inspector.
+
+This offers many debugging tools; for details on these see
+Debugging Flutter Apps.
+
+
+Toggle Select Widget Mode: Select a widget on the device to inspect it in the
+Flutter Inspector.
+
+Toggle Debug Paint: Add visual debugging hints to the rendering displaying
+ borders, padding, alignment, and spacers.
+
+Toggle Platform Mode: Toggle between rendering for Android or iOS.
+
+Toggle Performance Overlay: Show performance graphs for the GPU & CPU threads.
+
+Open Timeline View: Analyze activity of the application as it runs.
+
+Open Observatory: A profiler for Dart applications.
+
+Also available in the additional actions menu:
+
+
+Show Paint Baselines: Causes each RenderBox to paint a line at each of its
+baselines.
+
+Enable Repaint Rainbow: Shows rotating colors on layers when repainting.
+
+Enable Slow Animations: Slows down animations to enable visual inspection.
+
+Hide Debug Banner: Hides the debug banner even when running a debug build.
+
+
+Debugging with Observatory
+Observatory is an additional debugging and profiling tool presented with an
+html-based UI. For details see the Observatory
+page.
+To open Observatory:
+
+Run your app in debug mode.
+Select the Open Observatory action from the Debug panel.
+Click the Stopwatch icon:
+
+
+
+
+Editing tips for Flutter code
+
+Assists & Quick Fixes
+Assists are code changes related to a certain code identifier. A number of these
+are available when the cursor is placed on a Flutter widget identifier, as
+indicated by the yellow lightbulb icon. The assist can be invoked by clicking
+the lightbulb, or by using the keyboard shortcut
+(Alt+Enter on Linux and Windows, Option+Return on macOS),
+as illustrated here:
+
+Quick Fixes are similar, only they are shown with a piece of code has an error
+and they can assist in correcting it. They are indicated with a red lightbulb.
+
+Wrap with new widget assist
+This can be used when you have a widget that you want to wrap in a surrounding
+widget, for example if you want to wrap a widget in a Row or Column.
+
+Wrap widget list with new widget assist
+Similar to the assist above, but for wrapping an existing list of widgets rather
+than an individual widget.
+
+Convert child to children assist
+Changes a child argument to a children argument, and wraps the argument value in a list.
+
+Live templates
+Live templates can be used to speed up entering typical code structures. They
+are invoked by typing their prefix, and then selecting it in the code
+completion window:
+
+The Flutter plugin includes the following templates:
+
+Prefix stless: Create a new subclass of StatelessWidget.
+Prefix stful: Create a new subclass of StatefulWidget and it’s associated
+ State subclass.
+Prefix stanim: Create a new subclass of StatefulWidget, and it’s
+ associated State subclass including a field initialized with an
+ AnimationController.
+
+You can also define custom templates in Settings > Editor > Live Templates.
+
+Keyboard shortcuts
+Hot Reload
+On Linux (keymap Default for XWin) and Windows the keyboard shortcuts
+are Controle+Alt+; and Control+Backslash.
+On macOS (keymap Mac OS X 10.5+ copy) the keyboard shortcuts are
+Command+Option; and Command+Backslash`.
+Keyboard mappings can be changed in the IDE Preferences/Settings: Select
+Keymap, then enter flutter into the search box in the upper right corner.
+Right click the binding you want to change and Add Keyboard Shortcut.
+
+
+Hot reload vs. Full app restart
+Hot Reload works by injecting updated source code files into the running Dart VM
+(Virtual Machine). This includes not only adding new classes, but also adding
+methods and fields to existing classes, and changing existing functions. A few
+types of code changes cannot be hot reloaded though:
+
+Global variable initializers.
+Static field initializers.
+The main() method of the app.
+
+For these changes you can fully restart your application, without having to end
+your debugging session:
+
+Don’t click the Stop button; simply re-click the Run button (if in a run
+session) or Debug button (if in a debug session), or shift-click the ‘hot
+reload’ button.
+
+
+Editing Android code in Android Studio with full IDE support
+Opening the root directory of a Flutter project doesn’t expose all the Android
+files to the IDE. Flutter apps contain a subdirectory named android. If you
+open this subdirectory as its own separate project in Android Studio, the IDE
+will be able to fully support editing and refactoring all Android files (like
+Gradle scripts).
+If you already have the entire project opened as a Flutter app in Android
+Studio, there’s two equivalent ways to open the Android files on their own for
+editing in the IDE. Make sure that you’re on the latest version of Android
+Studio and the Flutter plugins first before trying this.
+
+In the “project
+ view”, you
+ should see a subdirectory immediately under the root of your flutter app
+ named android. Right click on it, then select Flutter > Open Android
+ module in Android Studio.
+OR, you can open any of the files under the android subdirectory for
+editing. You should then see a “Flutter commands” banner at the top of the
+editor with a link  labeled Open for Editing in Android Studio. Click that
+link.
+
+For both options, Android Studio gives you the option to use separate windows or
+to replace the existing window with the new project when opening a second
+project. Either option is fine.
+If you don’t already have the Flutter project opened in Android studio, you
+can open the Android files as their own project from the start:
+
+Click “Open an existing Android Studio Project” on the Welcome splash screen,
+or File > Open if Android Studio is already open.
+Open the android subdirectory immediately under the flutter app root. For
+example if the project is called flutter_app, open flutter_app/android.
+
+If you haven’t run your Flutter app yet you may see Android Studio report a
+build error when you open the android project. Run flutter packages get in
+the app’s root directory and rebuild the project by selecting Build > Make to
+fix it.
+
+Editing Android code in IntelliJ IDEA
+To enable editing of Android code in IntelliJ IDEA, you need to configure the
+location of the Android SDK:
+
+In Preferences > Plugins, enable Android Support if you haven’t already.
+Right-click the android folder in the Project view, and select Open
+Module Settings.
+In the Sources tab, locate the Language level field, and select level 8
+or later.
+In the Dependencies tab, locate the Module SDK field, and select an
+Android SDK. If no SDK is listed, click New and specify the location of
+the Android SDK. Make sure to select an Android SDK matching the one used by
+Flutter (as reported by flutter doctor).
+Click OK.
+
+
+Tips and tricks
+
+Flutter IDE cheat sheet, MacOS
+version
+Flutter IDE cheat sheet, Windows & Linux
+version
+
+
+Troubleshooting
+
+Known issues and feedback
+Important known issues that may impact your experience are documented in the
+Flutter plugin
+README file.
+All known bugs are tracked in the issue trackers:
+
+Flutter plugin: GitHub issue
+tracker.
+Dart plugin: JetBrains
+YouTrack.
+
+We very much welcome feedback, both on bugs/issues and feature requests. Prior
+to filing new issues:
+
+Do a quick search in the issue trackers to see if the issue is already
+tracked.
+Make sure you have updated to the most recent version of the
+plugin.
+
+When filing new issues, include the output of flutter
+doctor.
+
+
+
+
+
+
+
+
+
+
+
+
+flutter-dev@
+terms
+security
+privacy
+español
+社区中文资源
+
+
+            Except as otherwise noted,
+            this work is licensed under a
+            Creative
+            Commons Attribution 4.0 International License,
+            and code samples are licensed under the BSD License.
+          
+
+
+
+
+

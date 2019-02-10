@@ -1,0 +1,838 @@
+
+
+  
+  
+  
+  
+  
+  Flutter - Dart API docs
+  
+
+
+
+Flutter SDK
+
+Flutter
+
+
+Flutter package
+
+Libraries
+animation
+cupertino
+foundation
+gestures
+material
+painting
+physics
+rendering
+scheduler
+semantics
+services
+widgets
+Dart
+dart:ui
+Core
+dart:async
+dart:collection
+dart:convert
+dart:core
+dart:developer
+dart:math
+dart:typed_data
+VM
+dart:io
+dart:isolate
+platform_integration
+Android
+iOS
+flutter_test
+flutter_test
+flutter_driver
+flutter_driver
+flutter_driver_extension
+flutter_localizations
+flutter_localizations
+async
+async
+boolean_selector
+boolean_selector
+charcode
+charcode
+charcode.ascii.dollar_lowercase
+charcode.htmlentity.dollar_lowercase
+collection
+collection
+dart.pkg.collection.algorithms
+dart.pkg.collection.equality
+dart.pkg.collection.iterable_zip
+dart.pkg.collection.priority_queue
+dart.pkg.collection.wrappers
+convert
+convert
+crypto
+crypto
+file
+chroot
+file
+local
+memory
+record_replay
+intl
+date_symbol_data_custom
+date_symbol_data_file
+date_symbol_data_http_request
+date_symbol_data_local
+date_symbols
+date_time_patterns
+intl
+intl_standalone
+message_lookup_by_library
+number_symbol_data
+number_symbols
+json_rpc_2
+error_code
+json_rpc_2
+matcher
+matcher
+meta
+meta
+meta_dart2js
+path
+path
+platform
+platform
+process
+process
+record_replay
+pub_semver
+pub_semver
+quiver
+quiver.async
+quiver.cache
+quiver.check
+quiver.collection
+quiver.core
+quiver.iterables
+quiver.pattern
+quiver.strings
+quiver.testing.async
+quiver.testing.equality
+quiver.testing.runtime
+quiver.testing.time
+quiver.time
+source_span
+source_span
+stack_trace
+stack_trace
+stream_channel
+stream_channel
+string_scanner
+string_scanner
+term_glyph
+term_glyph
+test_api
+test_api
+typed_data
+typed_data
+typed_data.typed_buffers
+vector_math
+hash
+vector_math
+vector_math_64
+vector_math_geometry
+vector_math_lists
+vector_math_operations
+web_socket_channel
+web_socket_channel
+web_socket_channel.io
+web_socket_channel.status
+
+
+
+
+Welcome to the Flutter API reference documentation.
+Flutter is Google’s mobile UI framework for crafting high-quality native
+interfaces on iOS and Android in record time. Flutter works with existing code,
+is used by developers and organizations around the world, and is free and open
+source.
+The API reference herein covers all libraries that are exported by the Flutter
+SDK.
+More Documentation
+This site hosts Flutter's API documentation. Other documentation can be found at
+the following locations:flutter.io (main site)InstallationCodelabsContributing to Flutter
+Importing a Library
+Framework Libraries
+Libraries in the "Libraries" section below (or in the left navigation) are part
+of the core Flutter framework and are imported using
+'package:flutter/<library>.dart', like so:
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
+Dart Libraries
+Libraries in the "Dart" section exist in the 'dart:' namespace and are imported
+using 'dart:<library>', like so:
+import 'dart:async';
+import 'dart:ui';
+
+Except for 'dart:core', you must import a Dart library before you can use it.
+Other Libraries
+Libraries in other sections are supporting libraries that ship with Flutter.
+They are organized by package and are imported using
+'package:<package>/<library>.dart', like so:
+import 'package:flutter_test/flutter_test.dart';
+import 'package:file/local.dart';
+
+Finding Other Libraries
+Flutter has a rich community of packages that have been contributed by the
+open-source community. You can browse those packages at
+pub.dartlang.org
+
+
+Libraries
+
+
+animation
+
+
+              The Flutter animation system. [...]
+ 
+cupertino
+
+
+              Flutter widgets implementing the current iOS design language. [...]
+ 
+foundation
+
+
+              Core Flutter framework primitives. [...]
+ 
+gestures
+
+
+              The Flutter gesture recognizers. [...]
+ 
+material
+
+
+              Flutter widgets implementing Material Design. [...]
+ 
+painting
+
+
+              The Flutter painting library. [...]
+ 
+physics
+
+
+              Simple one-dimensional physics simulations, such as springs, friction, and
+gravity, for use in user interface animations. [...]
+ 
+rendering
+
+
+              The Flutter rendering tree. [...]
+ 
+scheduler
+
+
+              The Flutter Scheduler library. [...]
+ 
+semantics
+
+
+              The Flutter semantics package. [...]
+ 
+services
+
+
+              Platform services exposed to Flutter apps. [...]
+ 
+widgets
+
+
+              The Flutter widgets framework. [...]
+ 
+
+
+Dart
+
+
+dart:ui
+
+
+              Built-in types and core primitives for a Flutter application. [...]
+ Core
+
+dart:async
+
+
+                Support for asynchronous programming,
+with classes such as Future and Stream. [...]
+ 
+dart:collection
+
+
+                Classes and utilities that supplement the collection support in dart:core. [...]
+ 
+dart:convert
+
+
+                Encoders and decoders for converting between different data representations,
+including JSON and UTF-8. [...]
+ 
+dart:core
+
+
+                Built-in types, collections,
+and other core functionality for every Dart program. [...]
+ 
+dart:developer
+
+
+                Interact with developer tools such as the debugger and inspector. [...]
+ 
+dart:math
+
+
+                Mathematical constants and functions, plus a random number generator. [...]
+ 
+dart:typed_data
+
+
+                Lists that efficiently handle fixed sized data
+(for example, unsigned 8 byte integers) and SIMD numeric types. [...]
+ VM
+
+dart:io
+
+
+                File, socket, HTTP, and other I/O support for non-web applications. [...]
+ 
+dart:isolate
+
+
+                Concurrent programming using isolates:
+independent workers that are similar to threads
+but don't share memory,
+communicating only via messages. [...]
+ 
+
+
+platform_integration
+
+
+Android
+
+
+Flutter platform integration APIs for Android.
+ 
+iOS
+
+
+Flutter platform integration APIs for iOS.
+ 
+
+
+flutter_test
+
+
+flutter_test
+
+
+              Testing library for flutter, built on top of package:test. [...]
+ 
+
+
+flutter_driver
+
+
+flutter_driver
+
+
+              Provides API to test Flutter applications that run on real
+devices and emulators. [...]
+ 
+flutter_driver_extension
+
+
+              This library provides a Dart VM service extension that is required for
+tests that use package:flutter_driver to drive applications from a
+separate process, similar to Selenium (web), Espresso (Android) and UI
+Automation (iOS). [...]
+ 
+
+
+flutter_localizations
+
+
+flutter_localizations
+
+
+              Localizations for the Flutter library
+             
+
+
+async
+
+
+async
+
+
+ 
+
+
+boolean_selector
+
+
+boolean_selector
+
+
+ 
+
+
+charcode
+
+
+charcode
+
+
+              Defines symbolic names for character code points. [...]
+ 
+charcode.ascii.dollar_lowercase
+
+
+              Declare integer constants for each ASCII character. [...]
+ 
+charcode.htmlentity.dollar_lowercase
+
+
+              Character codes based on HTML 4.01 character entity names. [...]
+ 
+
+
+collection
+
+
+collection
+
+
+ 
+dart.pkg.collection.algorithms
+
+
+              Import collection.dart instead.
+             
+dart.pkg.collection.equality
+
+
+              Import collection.dart instead.
+             
+dart.pkg.collection.iterable_zip
+
+
+              Import collection.dart instead.
+             
+dart.pkg.collection.priority_queue
+
+
+              Import collection.dart instead.
+             
+dart.pkg.collection.wrappers
+
+
+              Import collection.dart instead.
+             
+
+
+convert
+
+
+convert
+
+
+ 
+
+
+crypto
+
+
+crypto
+
+
+ 
+
+
+file
+
+
+chroot
+
+
+ 
+file
+
+
+ 
+local
+
+
+ 
+memory
+
+
+ 
+record_replay
+
+
+ 
+
+
+intl
+
+
+date_symbol_data_custom
+
+
+ 
+date_symbol_data_file
+
+
+              This file should be imported, along with date_format.dart in order to read
+locale data from files in the file system.
+             
+date_symbol_data_http_request
+
+
+              This file should be imported, along with date_format.dart in order to read
+locale data via http requests to a web server..
+             
+date_symbol_data_local
+
+
+              Date/time formatting symbols for all locales. [...]
+ 
+date_symbols
+
+
+ 
+date_time_patterns
+
+
+              Date/time formatting symbols for a large subset of locales. [...]
+ 
+intl
+
+
+              This library provides internationalization and localization. This includes
+message formatting and replacement, date and number formatting and parsing,
+and utilities for working with Bidirectional text. [...]
+ 
+intl_standalone
+
+
+              This provides facilities for Internationalization that are only available
+when running standalone. You should import only one of this or
+intl_browser.dart. Right now the only thing provided here is finding
+the operating system locale.
+             
+message_lookup_by_library
+
+
+              Message/plural format library with locale support. This can have different
+implementations based on the mechanism for finding the localized versions of
+messages. This version expects them to be in a library named e.g.
+'messages_en_US'. The prefix is set in the "initializeMessages" call, which
+must be made for a locale before any lookups can be done. [...]
+ 
+number_symbol_data
+
+
+              Date/time formatting symbols for all locales. [...]
+ 
+number_symbols
+
+
+ 
+
+
+json_rpc_2
+
+
+error_code
+
+
+ 
+json_rpc_2
+
+
+ 
+
+
+matcher
+
+
+matcher
+
+
+ 
+
+
+meta
+
+
+meta
+
+
+              Constants for use in metadata annotations. [...]
+ 
+meta_dart2js
+
+
+              Constants for use in metadata annotations to provide hints to dart2js. [...]
+ 
+
+
+path
+
+
+path
+
+
+ 
+
+
+platform
+
+
+platform
+
+
+ 
+
+
+process
+
+
+process
+
+
+ 
+record_replay
+
+
+ 
+
+
+pub_semver
+
+
+pub_semver
+
+
+ 
+
+
+quiver
+
+
+quiver.async
+
+
+ 
+quiver.cache
+
+
+ 
+quiver.check
+
+
+              A simple set of pre/post-condition checkers based on the
+Guava Preconditions
+class in Java. [...]
+ 
+quiver.collection
+
+
+              Collection classes and related utilities.
+             
+quiver.core
+
+
+              Simple code with broad use cases.
+             
+quiver.iterables
+
+
+ 
+quiver.pattern
+
+
+              This library contains utilities for working with RegExps and other
+Patterns.
+             
+quiver.strings
+
+
+ 
+quiver.testing.async
+
+
+              Testing support for dart:async.
+             
+quiver.testing.equality
+
+
+              Utilities for testing the equality of Dart object
+             
+quiver.testing.runtime
+
+
+              Testing support related to the Dart runtime.
+             
+quiver.testing.time
+
+
+              Testing support for dart:core time functionality.
+             
+quiver.time
+
+
+ 
+
+
+source_span
+
+
+source_span
+
+
+ 
+
+
+stack_trace
+
+
+stack_trace
+
+
+ 
+
+
+stream_channel
+
+
+stream_channel
+
+
+ 
+
+
+string_scanner
+
+
+string_scanner
+
+
+ 
+
+
+term_glyph
+
+
+term_glyph
+
+
+ 
+
+
+test_api
+
+
+test_api
+
+
+ 
+
+
+typed_data
+
+
+typed_data
+
+
+              Utilities and functionality related to the "dart:typed_data" library.
+             
+typed_data.typed_buffers
+
+
+              Growable typed-data lists. [...]
+ 
+
+
+vector_math
+
+
+hash
+
+
+ 
+vector_math
+
+
+              A library containing different type of vector operations for use in games,
+simulations, or rendering. [...]
+ 
+vector_math_64
+
+
+              A library containing different type of vector operations for use in games,
+simulations, or rendering. [...]
+ 
+vector_math_geometry
+
+
+              A library containing geometry generators (like CubeGenerator,
+SphereGenerator and CylinderGenerator) and filters (BarycentricFilter,
+ColorFilter and InvertFilter).
+             
+vector_math_lists
+
+
+              A library for working with lists of vectors in a memory efficient way.
+             
+vector_math_operations
+
+
+              A library containing matrix operations (Matrix44Operations) that can be
+performed on Float32List instances and SIMD optimized operations
+(Matrix44SIMDOperations) that can be performed on Float32x4List
+instances.
+             
+
+
+web_socket_channel
+
+
+web_socket_channel
+
+
+ 
+web_socket_channel.io
+
+
+ 
+web_socket_channel.status
+
+
+              Status codes that are defined in the WebSocket spec. [...]
+ 
+
+
+
+
+    Flutter 1.0.0
+  
+
+  • 2018-12-04 16:55 • 5391447fae • stable
+

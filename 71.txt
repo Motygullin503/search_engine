@@ -1,0 +1,860 @@
+
+  
+  
+  
+  
+  Performance best practices  - Flutter 
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+Docs
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+Showcase
+
+
+Community
+
+
+
+
+
+
+
+
+
+Get started
+
+
+
+
+      Flutter 1.0 has been released!
+      Learn more.
+    
+
+      Help improve Flutter! 
+      Take our survey.
+    
+
+
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+
+    Contents
+    
+    
+
+Best practices
+
+Call setState thoughtfully
+Apply effects only when needed
+Render grids and lists lazily
+Build and display frames in 16ms
+
+
+Pitfalls
+Resources
+
+
+
+
+
+
+
+
+
+
+
+
+Performance best practices
+
+
+
+    Contents
+    
+
+Best practices
+
+Call setState thoughtfully
+Apply effects only when needed
+Render grids and lists lazily
+Build and display frames in 16ms
+
+
+Pitfalls
+Resources
+
+
+Generally, Flutter applications are performant by default,
+so you only need to avoid common pitfalls to get excellent performance
+instead of needing to micro-optimize with complicated profiling tools.
+These best recommendations will help you write the most performant
+Flutter app possible.
+
+Best practices
+How do you design a Flutter app to most efficiently render your scenes?
+In particular, how do you ensure that the painting code generated by the
+framework is as efficient as possible? Here are a few things to consider
+when designing your app:
+
+Call setState thoughtfully
+
+Avoid repetitive and costly work in build() methods since build()
+can be invoked frequently when ancestor Widgets rebuild.
+Localize the setState() call to the part of the subtree whose UI
+actually needs to change. Avoid calling setState() high up in
+the tree if the change is contained to a small part of the tree.
+When a widget rebuilds, but the build stops a child from rebuilding,
+reuse the same child widget.
+
+Also see:
+
+
+Performance
+considerations,
+part of the
+StatefulWidget
+API doc
+
+
+Apply effects only when needed
+Use effects carefully, as they can be expensive. Some of them invoke
+saveLayer() behind the scenes, which can be an expensive operation.
+
+ Note:
+Why is savelayer expensive?
+Calling saveLayer() allocates an offscreen buffer. Drawing content
+into the offscreen buffer may trigger render target switches that
+are particularly slow in older GPUs.
+
+Some general rules when applying specific effects:
+
+Use the Opacity
+widget only when necessary. See Transparent
+image
+in the Opacity API page for an example of applying opacity directly
+to an image, which is faster than using the Opacity widget.
+
+Clipping doesn’t call saveLayer() (unless explicitly requested with
+Clip.antiAliasWithSaveLayer) so these operations aren’t as expensive
+as Opacity, but clipping is still costly, so use with caution. By default,
+clipping is disabled (Clip.none), so you must explicitly enable it when
+needed.
+
+Other widgets that may trigger saveLayer() and are potentially costly:
+
+ShaderMask
+ColorFilter
+
+Chip—may
+cause call to saveLayer() if disabledColorAlpha != 0xff
+
+
+Text—may
+cause call to saveLayer() if there’s an overflowShader
+
+
+Ways to avoid calls to saveLayer():
+
+To implement fading in an image, consider using the FadeInImage widget,
+which applies a gradual opacity using the GPU’s fragment shader.
+For more information, see
+Opacity.
+To create a rectangle with rounded corners, instead of applying a
+clipping rectangle, consider using the borderRadius property offered
+by many of the widget classes.
+
+
+Render grids and lists lazily
+Use the lazy methods, with callbacks, when building large grids or lists.
+That way only the visible portion of the screen is built at startup time.
+Also see:
+
+
+Working with long lists in the
+Cookbook
+
+
+Creating a ListView that loads one page at a
+time
+by AbdulRahman AlHamali
+
+Listview.builder API
+
+
+Build and display frames in 16ms
+Since there are two separate threads for building and rendering, you
+have 16ms for building, and 16ms for rendering on a 60Hz display.
+If latency is a concern, build and display a frame in 16ms or less.
+Note that means built in 8ms or less,
+and rendered in 8ms or less, for a total of 16ms or less.
+If missing frames (jankyness) is a concern, then 16ms for each of
+the build and render stages is OK.
+If your frames are rendering in well under 16ms total in a profile
+build,
+you likely don’t have to worry about performance even if some
+performance pitfalls apply, but you should still aim to build and
+render a frame as fast as possible. Why?
+
+Lowering the frame render time below 16ms may not make a visual
+difference, but it will improve battery life and thermal issues.
+It may run fine on your device, but consider performance for the
+lowest device you are targeting.
+When 120fps devices become widely available, you’ll want to render frames
+in under 8ms (total) in order to provide the smoothest experience.
+
+If you are wondering why 60fps leads to a smooth visual experience,
+see the video Why 60fps?
+
+Pitfalls
+If you need to tune your app’s performance, or perhaps the UI isn’t as
+smooth as you expect, the Flutter plugin for your IDE can help.
+In the Flutter Performance window, enable the Show widget rebuild
+information check box. This feature helps you detect when 
+frames are being rendered and displayed in more than 16ms.
+Where possible, the plugin provides a link to a relevant tip.
+The following behaviors might negatively impact your app’s performance.
+
+
+Avoid using the Opacity widget, and particularly avoid it in an animation.
+Use AnimatedOpacity or FadeInImage instead.
+For more information, see Performance considerations for opacity
+animation.
+
+
+When using an AnimatedBuilder, avoid putting a subtree in the builder
+function that builds widgets that don’t depend on the animation.
+This subtree is rebuilt for every tick of the animation.
+Instead, build that part of the subtree once and pass it as a child to
+the AnimatedBuilder. For more information, see Performance
+optimizations.
+
+
+Avoid clipping in an animation. If possible, pre-clip the image before
+animating it.
+
+
+Avoid using constructors with a concrete List of children (such as
+Column() or ListView()) if most of the children are not visible
+on screen to avoid the build cost.
+
+
+
+Resources
+For more performance info, see the following resources:
+
+
+Performance
+optimizations
+in the AnimatedBuilder API page
+
+Performance considerations for opacity
+animation
+in the Opacity API page
+
+Child elements’
+lifecycle
+and how to load them efficiently, in the ListView API page
+
+Performance
+considerations
+of a StatefulWidget
+
+
+
+
+
+
+
+
+
+
+
+
+
+flutter-dev@
+terms
+security
+privacy
+español
+社区中文资源
+
+
+            Except as otherwise noted,
+            this work is licensed under a
+            Creative
+            Commons Attribution 4.0 International License,
+            and code samples are licensed under the BSD License.
+          
+
+
+
+
+

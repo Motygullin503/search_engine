@@ -1,0 +1,850 @@
+
+  
+  
+  
+  
+  Introduction to animations  - Flutter 
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+Docs
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+Showcase
+
+
+Community
+
+
+
+
+
+
+
+
+
+Get started
+
+
+
+
+      Flutter 1.0 has been released!
+      Learn more.
+    
+
+      Help improve Flutter! 
+      Take our survey.
+    
+
+
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+
+    Contents
+    
+    
+
+Animation types
+
+Tween animation
+Physics-based animation
+
+
+Common animation patterns
+
+Animated list or grid
+Shared element transition
+Staggered animation
+
+
+Other resources
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction to animations
+
+
+Docs
+
+
+Development
+
+
+UI
+
+
+Animations
+
+
+
+
+
+
+
+    Contents
+    
+
+Animation types
+
+Tween animation
+Physics-based animation
+
+
+Common animation patterns
+
+Animated list or grid
+Shared element transition
+Staggered animation
+
+
+Other resources
+
+
+Well-designed animations makes a UI feel more intuitive, contribute to the slick
+look and feel of a polished app, and improve the user experience. Flutter’s
+animation support makes it easy to implement a variety of animation types. Many
+widgets, especially Material widgets, come with the standard motion effects
+defined in their design spec, but it’s also possible to customize these effects.
+The following resources are a good place to start learning the Flutter animation
+framework. Each of these documents shows, step by step, how to write animation
+code.
+
+
+Animations tutorial
+Explains the fundamental classes in the Flutter animation package
+(controllers, Animatable, curves, listeners, builders),
+as it guides you through a progression of tween animations using
+different aspects of the animation APIs.
+
+
+Zero to One with Flutter, part
+1 and part
+2
+Medium articles showing how to create an animated chart using tweening.
+
+
+Building Beautiful UIs with
+Flutter
+Codelab demonstrating how to build a simple chat app. Step 7 (Animate
+your app)
+shows how to animate the new message—sliding it from the input area up
+to the message list.
+
+
+
+Animation types
+Animations fall into one of two categories: tween- or physics-based.
+The following sections explain what these terms mean, and points you to
+resources where you can learn more. In some cases,
+the best documentation we currently have is example code in the
+Flutter gallery.
+
+Tween animation
+Short for in-betweening. In a tween animation, the beginning
+and ending points are defined, as well as a timeline, and a curve
+that defines the timing and speed of the transition.
+The framework calculates how to transition from the beginning point
+to the end point.
+The documents listed above, such as the animations
+tutorial are not about tweening,
+specifically, but they use tweens in their examples.
+
+Physics-based animation
+In physics-based animation, motion is modeled to resemble real-world
+behavior. When you toss a ball, for example, where and when it lands
+depends on how fast it was tossed and how far it was from the ground.
+Similarly, dropping a ball attached to a spring falls
+(and bounces) differently than dropping a ball attached to a string.
+
+
+Flutter Gallery
+Under Material Components, the
+Grid example
+demonstrates a fling animation. Select one of the images from
+the grid and zoom in. You can pan the image with flinging or dragging
+gestures.
+
+
+Also see the API documentation for
+AnimationController.animateWith and
+SpringSimulation.
+
+
+
+Common animation patterns
+Most UX or motion designers find that certain animation patterns are
+used repeatedly when designing a UI. This section lists some of the commonly
+used animation patterns, and tells you where you can learn more.
+
+Animated list or grid
+This pattern involves animating the addition or removal of elements from a
+list or grid.
+
+
+AnimatedList example
+This demo, from the Sample App Catalog, shows how to
+animate adding an element to a list, or removing a selected element.
+The internal Dart list is synced as the user modifies the list using
+the plus (+) and minus (-) buttons.
+
+
+Shared element transition
+In this pattern, the user selects an element—often an
+image—from the page, and the UI animates the selected element
+to a new page with more detail. In Flutter, you can easily implement
+shared element transitions between routes (pages) using the Hero widget.
+
+
+Hero Animations
+How to create two styles of Hero animations:
+    
+The hero flies from one page to another while changing position
+and size.
+The hero’s boundary changes shape, from a circle to a square,
+as its flies from one page to another.
+
+
+
+Flutter Gallery
+You can build the Gallery app yourself, or download it from the Play Store.
+The
+Shrine
+demo includes an example of a Hero animation.
+
+Also see the API documentation for the
+Hero,
+Navigator, and
+PageRoute
+classes.
+
+
+Staggered animation
+Animations that are broken into smaller motions, where some of the motion is delayed.
+The smaller animations may be sequential, or may partially or completely overlap.
+
+Staggered Animations
+
+
+Other resources
+Learn more about Flutter animations at the following links:
+
+
+Animations: Technical Overview
+A look at some of the major classes in the animations library,
+and Flutter’s animation architecture.
+
+
+Animation and Motion Widgets
+A catalog of some of the animation widgets provided in the Flutter APIs.
+
+
+
+If there is specific animation documentation you’d like to see,
+file an issue.
+
+
+
+
+
+
+
+
+
+
+
+
+flutter-dev@
+terms
+security
+privacy
+español
+社区中文资源
+
+
+            Except as otherwise noted,
+            this work is licensed under a
+            Creative
+            Commons Attribution 4.0 International License,
+            and code samples are licensed under the BSD License.
+          
+
+
+
+
+

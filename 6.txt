@@ -1,0 +1,1962 @@
+
+  
+  
+  
+  
+  Write your first Flutter app, part 1  - Flutter 
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+Docs
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+Showcase
+
+
+Community
+
+
+
+
+
+
+
+
+
+Get started
+
+
+
+
+      Flutter 1.0 has been released!
+      Learn more.
+    
+
+      Help improve Flutter! 
+      Take our survey.
+    
+
+
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+
+    Contents
+    
+    
+
+Step 1: Create the starter Flutter app
+
+
+
+Step 2: Use an external package
+
+
+
+Step 3: Add a Stateful widget
+
+
+
+Step 4: Create an infinite scrolling ListView
+
+
+
+
+
+
+
+
+
+Test drive
+
+
+Learn more
+
+
+
+
+
+
+
+
+
+
+
+
+Write your first Flutter app, part 1
+
+
+Docs
+
+
+Get started
+
+
+Write your first app
+
+
+
+
+
+
+
+    Contents
+    
+
+Step 1: Create the starter Flutter app
+
+
+
+Step 2: Use an external package
+
+
+
+Step 3: Add a Stateful widget
+
+
+
+Step 4: Create an infinite scrolling ListView
+
+
+
+
+
+
+This is a guide to creating your first Flutter app. If you
+are familiar with object-oriented code and basic programming
+concepts such as variables, loops, and conditionals,
+you can complete this tutorial. You don’t need
+previous experience with Dart or mobile programming.
+This guide is part 1 of a two-part codelab. You can find
+part 2
+on Google Developers.
+Part 1
+can also be found on Google Developers.
+
+What you’ll build in part 1
+You’ll implement a simple mobile app that generates proposed names for a
+startup company. The user can select and unselect names,
+saving the best ones. The code lazily generates names.
+As the user scrolls, more names are generated.
+There is no limit to how far a user can scroll.
+The animated GIF shows how the app works at the completion of part 1.
+
+
+What you’ll learn in part 1
+
+How to write a Flutter app that looks natural on both iOS and Android.
+Basic structure of a Flutter app.
+Finding and using packages to extend functionality.
+Using hot reload for a quicker development cycle.
+How to implement a stateful widget.
+How to create an infinite, lazily loaded list.
+
+In part 2
+  of this codelab, you’ll add interactivity, modify the app’s theme, and
+  add the ability to navigate to a new screen (called a route in Flutter).
+
+
+
+What you'll use
+You need two pieces of software to complete this lab: the
+  Flutter SDK and an editor.
+  This codelab assumes Android Studio, but you can use your preferred
+  editor.
+You can run this codelab using any of the following devices:
+
+A physical device (Android
+or iOS) connected to your
+computer and set to developer mode.
+The iOS simulator.
+The Android emulator.
+
+
+
+Step 1: Create the starter Flutter app
+Create a simple, templated Flutter app, using the instructions in
+Getting Started with your first Flutter app.
+Name the project startup_namer (instead of myapp).
+
+ Tip:
+  If you don’t see “New Flutter Project” as an option in your IDE, make
+  sure you have the plugins installed for Flutter and
+  Dart.
+
+In this codelab, you’ll mostly be editing lib/main.dart,
+where the Dart code lives.
+
+
+Replace the contents of lib/main.dart.
+Delete all of the code from lib/main.dart.
+Replace with the following code, which displays “Hello World” in the center
+of the screen.
+
+lib/main.dart
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Welcome to Flutter',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Welcome to Flutter'),
+        ),
+        body: Center(
+          child: Text('Hello World'),
+        ),
+      ),
+    );
+  }
+}
+
+
+ Tip:
+  When pasting code into your app, indentation can become skewed.
+  You can fix this automatically with the Flutter tools:
+
+Android Studio / IntelliJ IDEA: Right-click the code and
+select Reformat Code with dartfmt.
+VS Code: Right-click and select Format Document.
+Terminal: Run flutter format <filename>.
+
+
+
+
+Run the app by clicking
+the green arrow in the IDE.
+You should see either Android or iOS output, depending on your device.
+
+
+
+Android
+
+
+
+iOS
+
+
+
+ Tip:
+  The first time you run on a physical device, it can take awhile to load.
+  After this, you can use hot reload for quick updates. Save also
+  performs a hot reload if the app is running.
+
+
+
+
+Observations
+
+This example creates a Material app.
+Material is a visual design language
+that is standard on mobile and the web. Flutter offers a rich set
+of Material widgets.
+The main() method uses arrow (=>) notation.
+Use arrow notation for one-line functions or methods.
+The app extends StatelessWidget which makes the app itself a
+widget. In Flutter, almost everything is a widget, including
+alignment, padding, and layout.
+The Scaffold widget, from the Material library,
+provides a default app bar, title, and a body property that
+holds the widget tree for the home screen. The widget subtree
+can be quite complex.
+A widget’s main job is to provide a build() method
+that describes how to display the widget in terms of other,
+lower level widgets.
+The body for this example consists of a Center widget containing
+a Text child widget. The Center widget aligns its widget subtree
+to the center of the screen.
+
+
+Step 2: Use an external package
+In this step, you’ll start using an open-source package named
+english_words,
+which contains a few thousand of the most used
+English words plus some utility functions.
+You can find the english_words package, as well as many other open source
+packages, on the Pub site.
+
+
+The pubspec file manages the assets and dependencies for a Flutter app. In
+pubspec.yaml, add english_words (3.1.0 or higher) to the dependencies
+list:
+
+
+
+
+
+ {step1_base → step2_use_package}/pubspec.yaml
+
+
+
+
+
+
+
+
+
+@@ -5,4 +5,5 @@
+
+
+
+
+5
+5
+
+
+
+ 
+dependencies:
+
+
+
+
+
+6
+6
+
+
+
+ 
+  flutter:
+
+
+
+
+
+7
+7
+
+
+
+ 
+    sdk: flutter
+
+
+
+
+
+8
+8
+
+
+
+ 
+  cupertino_icons: ^0.1.2
+
+
+
+
+
+
+9
+
+
+
++
+  english_words: ^3.1.0
+
+
+
+
+
+
+
+
+
+
+
+While viewing the pubspec in Android Studio’s editor view,
+click Packages get. This pulls the package into
+your project. You should see the following in the console:
+
+$ flutter packages get
+Running "flutter packages get" in startup_namer...
+Process finished with exit code 0
+ 
+Performing Packages get also auto-generates the pubspec.lock
+file with a list of all packages pulled into the project and
+their version numbers.
+
+
+In lib/main.dart, import the new package:
+
+lib/main.dart
+import 'package:flutter/material.dart';
+import 'package:english_words/english_words.dart';
+
+As you type, Android Studio gives you suggestions for libraries to import.
+It then renders the import string in gray, letting you know that the
+imported library is unused (so far).
+
+
+Use the English words package to generate the text instead of
+using the string “Hello World”:
+
+
+
+
+
+ {step1_base → step2_use_package}/lib/main.dart
+
+
+
+
+
+
+
+
+
+@@ -5,6 +6,7 @@
+
+
+
+
+5
+6
+
+
+
+ 
+class MyApp extends StatelessWidget {
+
+
+
+
+
+6
+7
+
+
+
+ 
+  @override
+
+
+
+
+
+7
+8
+
+
+
+ 
+  Widget build(BuildContext context) {
+
+
+
+
+
+
+9
+
+
+
++
+    final wordPair = WordPair.random();
+
+
+
+
+
+8
+10
+
+
+
+ 
+    return MaterialApp(
+
+
+
+
+
+9
+11
+
+
+
+ 
+      title: 'Welcome to Flutter',
+
+
+
+
+
+10
+12
+
+
+
+ 
+      home: Scaffold(
+
+
+
+
+
+
+@@ -12,7 +14,7 @@
+
+
+
+
+12
+14
+
+
+
+ 
+          title: Text('Welcome to Flutter'),
+
+
+
+
+
+13
+15
+
+
+
+ 
+        ),
+
+
+
+
+
+14
+16
+
+
+
+ 
+        body: Center(
+
+
+
+
+
+15
+
+
+
+
+-
+          child: Text('Hello World'),
+
+
+
+
+
+
+17
+
+
+
++
+          child: Text(wordPair.asPascalCase),
+
+
+
+
+
+16
+18
+
+
+
+ 
+        ),
+
+
+
+
+
+17
+19
+
+
+
+ 
+      ),
+
+
+
+
+
+18
+20
+
+
+
+ 
+    );
+
+
+
+
+
+
+
+
+
+
+ Note:
+  “Pascal case” (also known as “upper camel case”),
+  means that each word in the string, including the first one,
+  begins with an uppercase letter. So, “uppercamelcase” becomes
+  “UpperCamelCase”.
+
+
+
+If the app is running, use the hot reload button
+offline_bolt
+to update the running app. Each time you click hot reload,
+or save the project, you should see a different word pair,
+chosen at random, in the running app.
+This is because the word pairing is generated inside the build
+method, which is run each time the MaterialApp requires rendering,
+or when toggling the Platform in Flutter Inspector.
+
+
+
+Android
+
+
+
+iOS
+
+
+
+
+
+Problems?
+If your app is not running correctly, look for typos. If needed,
+use the code at the following links to get back on track.
+
+pubspec.yaml
+lib/main.dart
+
+
+Step 3: Add a Stateful widget
+Stateless widgets are immutable, meaning that their
+properties can’t change—all values are final.
+Stateful widgets maintain state that might change
+during the lifetime of the widget. Implementing a stateful
+widget requires at least two classes: 1) a StatefulWidget class
+that creates an instance of 2) a State class. The StatefulWidget
+class is, itself, immutable, but the State class persists over the
+lifetime of the widget.
+In this step, you’ll add a stateful widget, RandomWords, which creates
+its State class, RandomWordsState. You’ll then use RandomWords as
+a child inside the existing MyApp stateless widget.
+
+
+Create a minimal state class. Add the following to the bottom
+of main.dart:
+
+lib/main.dart (RandomWordsState)
+class RandomWordsState extends State<RandomWords> {
+  // TODO Add build() method
+}
+
+Notice the declaration State<RandomWords>. This indicates that we’re
+using the generic
+State
+class specialized for use with RandomWords. Most of the app’s logic
+and state resides here—it maintains the state for the RandomWords
+widget. This class saves the generated word pairs, which grows infinitely
+as the user scrolls, and favorite word pairs (in
+part 2),
+as the user adds or removes them from the list by toggling the heart icon.
+RandomWordsState depends on the RandomWords class. You’ll add that next.
+
+
+Add the stateful RandomWords widget to main.dart.
+The RandomWords widget does little else beside creating its State class:
+
+lib/main.dart (RandomWords)
+class RandomWords extends StatefulWidget {
+  @override
+  RandomWordsState createState() => new RandomWordsState();
+}
+
+After adding the state class, the IDE complains that
+the class is missing a build method. Next, you’ll add a basic
+build method that generates the word pairs by moving the
+word generation code from MyApp to RandomWordsState.
+
+
+Add the build() method to RandomWordsState:
+
+lib/main.dart (RandomWordsState)
+class RandomWordsState extends State<RandomWords> {
+  @override
+  Widget build(BuildContext context) {
+    final wordPair = WordPair.random();
+    return Text(wordPair.asPascalCase);
+  }
+}
+
+
+
+Remove the word generation code from MyApp by making the changes shown in
+the following diff:
+
+
+
+
+
+ {step2_use_package → step3_stateful_widget}/lib/main.dart
+
+
+
+
+
+
+
+
+
+@@ -6,7 +6,6 @@
+
+
+
+
+6
+6
+
+
+
+ 
+class MyApp extends StatelessWidget {
+
+
+
+
+
+7
+7
+
+
+
+ 
+  @override
+
+
+
+
+
+8
+8
+
+
+
+ 
+  Widget build(BuildContext context) {
+
+
+
+
+
+9
+
+
+
+
+-
+    final wordPair = WordPair.random();
+
+
+
+
+
+10
+9
+
+
+
+ 
+    return MaterialApp(
+
+
+
+
+
+11
+10
+
+
+
+ 
+      title: 'Welcome to Flutter',
+
+
+
+
+
+12
+11
+
+
+
+ 
+      home: Scaffold(
+
+
+
+
+
+
+@@ -14,8 +13,8 @@
+
+
+
+
+14
+13
+
+
+
+ 
+          title: Text('Welcome to Flutter'),
+
+
+
+
+
+15
+14
+
+
+
+ 
+        ),
+
+
+
+
+
+16
+15
+
+
+
+ 
+        body: Center(
+
+
+
+
+
+17
+
+
+
+
+-
+          child: Text(wordPair.asPascalCase),
+
+
+
+
+
+
+16
+
+
+
++
+          child: RandomWords(),
+
+
+
+
+
+18
+17
+
+
+
+ 
+        ),
+
+
+
+
+
+19
+18
+
+
+
+ 
+      ),
+
+
+
+
+
+20
+19
+
+
+
+ 
+    );
+
+
+
+
+
+21
+20
+
+
+
+ 
+  }
+
+
+
+
+
+
+
+
+
+
+
+Restart the app.
+The app should behave as before, displaying a word
+pairing each time you hot reload or save the app.
+
+
+
+ Tip:
+  If you see the following warning on a hot reload, consider restarting
+  the app:
+Reloading…
+  Some program elements were changed during reload but did not run when
+  the view was reassembled; you may need to restart the app (by pressing “R”)
+  for the changes to have an effect.
+It may be a false positive, but restarting ensures that your changes
+  are reflected in the app’s UI.
+
+
+Problems?
+If your app is not running correctly, you can use the code
+at the following link to get back on track.
+
+lib/main.dart
+
+
+Step 4: Create an infinite scrolling ListView
+In this step, you’ll expand RandomWordsState to generate
+and display a list of word pairings. As the user scrolls, the list
+displayed in a ListView widget, grows infinitely. ListView’s
+builder factory constructor allows you to build a list view
+lazily, on demand.
+
+
+Add a _suggestions list to the RandomWordsState
+class for saving suggested word pairings.
+Also, add a _biggerFont variable for making the font size larger.
+
+lib/main.dart
+class RandomWordsState extends State<RandomWords> {
+  final _suggestions = <WordPair>[];
+  final _biggerFont = const TextStyle(fontSize: 18.0);
+  // ···
+}
+
+
+ Note:
+  Prefixing an identifier with an underscore enforces
+  privacy
+  in the Dart language.
+
+Next, you’ll add a _buildSuggestions() function to the RandomWordsState
+class. This method builds the ListView that displays the suggested
+word pairing.
+The ListView class provides a builder property, itemBuilder, that’s a
+factory builder and callback function specified as an anonymous function.
+Two parameters are passed to the function—the BuildContext,
+and the row iterator, i. The iterator begins at 0 and increments
+each time the function is called, once for every suggested word pairing.
+This model allows the suggested list to grow infinitely as the user scrolls.
+
+
+Add a _buildSuggestions() function to the RandomWordsState class:
+
+lib/main.dart (_buildSuggestions)
+Widget _buildSuggestions() {
+  return ListView.builder(
+      padding: const EdgeInsets.all(16.0),
+      itemBuilder: /*1*/ (context, i) {
+        if (i.isOdd) return Divider(); /*2*/
+
+        final index = i ~/ 2; /*3*/
+        if (index >= _suggestions.length) {
+          _suggestions.addAll(generateWordPairs().take(10)); /*4*/
+        }
+        return _buildRow(_suggestions[index]);
+      });
+}
+
+
+The itemBuilder callback is called once per suggested word pairing,
+and places each suggestion into a ListTile row. For even rows, the
+function adds a ListTile row for the word pairing. For odd rows, the
+function adds a Divider widget to visually separate the entries. Note
+that the divider may be difficult to see on smaller devices.
+Add a one-pixel-high divider widget before each row in the ListView.
+The expression i ~/ 2 divides i by 2 and returns an integer result.
+For example: 1, 2, 3, 4, 5 becomes 0, 1, 1, 2, 2. This calculates the
+actual number of word pairings in the ListView, minus the divider
+widgets.
+If you’ve reached the end of the available word pairings, then generate
+10 more and add them to the suggestions list.
+
+The _buildSuggestions() function calls _buildRow() once per
+word pair. This function displays each new pair in a ListTile,
+which allows you to make the rows more attractive in the next step.
+
+
+Add a _buildRow() function to RandomWordsState:
+
+lib/main.dart (_buildRow)
+Widget _buildRow(WordPair pair) {
+  return ListTile(
+    title: Text(
+      pair.asPascalCase,
+      style: _biggerFont,
+    ),
+  );
+}
+
+
+
+In the RandomWordsState class, update the build() method to use
+_buildSuggestions(), rather than directly calling the word
+generation library.
+(Scaffold
+implements the basic Material Design visual layout.)
+Replace the method body with the highlighted code:
+
+lib/main.dart (build)
+@override
+Widget build(BuildContext context) {
+  return Scaffold(
+    appBar: AppBar(
+      title: Text('Startup Name Generator'),
+    ),
+    body: _buildSuggestions(),
+  );
+}
+
+
+
+In the MyApp class, update the build() method by changing the title, and
+changing the home to be a RandomWords widget:
+
+
+
+
+
+ {step3_stateful_widget → step4_infinite_list}/lib/main.dart
+
+
+
+
+
+
+
+
+
+@@ -6,15 +6,8 @@
+
+
+
+
+6
+6
+
+
+
+ 
+class MyApp extends StatelessWidget {
+
+
+
+
+
+7
+7
+
+
+
+ 
+  @override
+
+
+
+
+
+8
+8
+
+
+
+ 
+  Widget build(BuildContext context) {
+
+
+
+
+
+9
+9
+
+
+
+ 
+    return MaterialApp(
+
+
+
+
+
+10
+
+
+
+
+-
+      title: 'Welcome to Flutter',
+
+
+
+
+
+11
+
+
+
+
+-
+      home: Scaffold(
+
+
+
+
+
+
+10
+
+
+
++
+      title: 'Startup Name Generator',
+
+
+
+
+
+
+11
+
+
+
++
+      home: RandomWords(),
+
+
+
+
+
+12
+
+
+
+
+-
+        appBar: AppBar(
+
+
+
+
+
+13
+
+
+
+
+-
+          title: Text('Welcome to Flutter'),
+
+
+
+
+
+14
+
+
+
+
+-
+        ),
+
+
+
+
+
+15
+
+
+
+
+-
+        body: Center(
+
+
+
+
+
+16
+
+
+
+
+-
+          child: RandomWords(),
+
+
+
+
+
+17
+
+
+
+
+-
+        ),
+
+
+
+
+
+18
+
+
+
+
+-
+      ),
+
+
+
+
+
+19
+12
+
+
+
+ 
+    );
+
+
+
+
+
+20
+13
+
+
+
+ 
+  }
+
+
+
+
+
+
+
+
+
+
+
+Restart the app. You should see a list of word pairings no matter how far
+you scroll.
+
+
+
+Android
+
+
+
+iOS
+
+
+
+
+
+Problems?
+If your app is not running correctly, you can use the code at the following link
+to get back on track.
+
+lib/main.dart
+
+
+Next steps
+
+
+
+The app from part 2
+
+
+Congratulations!
+You’ve written an interactive Flutter app that runs on both iOS and Android.
+In this codelab, you’ve:
+
+Created a Flutter app from the ground up.
+Written Dart code.
+Leveraged an external, third-party library.
+Used hot reload for a faster development cycle.
+Implemented a stateful widget.
+Created a lazily loaded, infinite scrolling list.
+
+If you would like to extend this app, proceed to
+part 2
+on the
+Google Developers Codelabs site,
+where you add the following functionality:
+
+Implement interactivity by adding a clickable heart icon to save
+favorite pairings.
+Implement navigation to a new route by adding a new screen
+containing the saved favorites.
+Modify the theme color, making an all-white app.
+
+
+
+
+Test drive
+
+
+Learn more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flutter-dev@
+terms
+security
+privacy
+español
+社区中文资源
+
+
+            Except as otherwise noted,
+            this work is licensed under a
+            Creative
+            Commons Attribution 4.0 International License,
+            and code samples are licensed under the BSD License.
+          
+
+
+
+
+

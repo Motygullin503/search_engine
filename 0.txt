@@ -1,0 +1,615 @@
+
+  
+  
+  
+  
+  Flutter - Beautiful native apps in record time 
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+Docs
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+Showcase
+
+
+Community
+
+
+
+
+
+
+
+
+
+Get started
+
+
+
+
+      Flutter 1.0 has been released!
+      Learn more.
+    
+
+      Help improve Flutter! 
+      Take our survey.
+    
+
+
+
+
+
+
+
+
+
+Design beautiful apps
+
+
+
+
+
+
+Productively build apps
+
+
+
+
+
+
+Create faster apps
+
+
+
+
+
+
+Publish iOS & Android apps
+
+
+
+
+
+
+
+
+Made by 
+
+                    Flutter allows you to build beautiful native apps on iOS and Android from a single codebase.
+                
+
+Get started
+
+
+                    Coming from another platform? Docs: iOS,
+                    Android,
+                    Web,
+                    React Native,
+                    Xamarin.
+                
+
+
+
+
+
+
+
+
+
+Fast Development
+
+                Paint your app to life in milliseconds with stateful Hot Reload. Use a rich set of fully-customizable
+                widgets to build native interfaces in minutes.
+                
+
+
+
+Expressive and Flexible UI
+
+                Quickly ship features with a focus on native end-user experiences. Layered architecture allows for full
+                customization, which results in incredibly fast rendering and expressive and flexible designs.
+                
+
+
+
+Native Performance
+
+                Flutter’s widgets incorporate all critical platform differences such as scrolling, navigation, icons and
+                fonts to provide full native performance on both iOS and Android.
+                
+
+
+
+
+
+
+
+
+
+
+
+
+Fast development
+
+                    Flutter's hot reload helps you quickly
+                    and easily experiment, build UIs, add features, and fix
+                    bugs faster. Experience sub-second reload times,
+                    without losing state, on
+                    emulators, simulators, and hardware for iOS
+                    and Android.
+                
+Learn more
+
+
+
+
+
+
+
+
+
+
+Reflectly
+An award winning mindfulness app built with Flutter.
+
+                        Download: iOS, Android
+Learn more
+
+
+
+
+
+
+
+Expressive, beautiful UIs
+
+                Delight your users with Flutter's built-in
+                beautiful Material Design and
+                Cupertino (iOS-flavor) widgets, rich motion APIs,
+                smooth natural scrolling, and platform awareness.
+                
+Browse the widget catalog
+
+
+
+
+
+
+
+
+
+
+
+
+Native Performance
+
+                Flutter’s widgets incorporate all critical platform differences such
+                as scrolling, navigation, icons and fonts to provide full native
+                performance on both iOS and Android.
+                
+
+Examples of apps built with Flutter
+
+
+Demo design inspired by
+                        Aurélien Salomon's
+                        Google Newsstand Navigation Pattern
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Learn from developers
+
+                Watch these videos to learn from Google and developers as you build with Flutter.
+                
+Visit our YouTube playlist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Who's using Flutter?
+
+                Organizations around the world are building apps with Flutter.
+                
+See what’s being created
+
+
+
+
+
+
+
+
+News
+Flutter 1.0: Google’s Portable UI Toolkit
+Read More
+
+
+
+
+
+News
+Flutter’s iOS Application Bundle
+Read More
+
+
+
+
+
+Try Flutter today.
+It’s free and open source.
+Get started
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flutter-dev@
+terms
+security
+privacy
+español
+社区中文资源
+
+
+            Except as otherwise noted,
+            this work is licensed under a
+            Creative
+            Commons Attribution 4.0 International License,
+            and code samples are licensed under the BSD License.
+          
+
+
+
+
+

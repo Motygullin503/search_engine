@@ -1,0 +1,593 @@
+
+  
+    
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  samples/INDEX.md at master · flutter/samples · GitHub
+    
+    
+  
+  
+
+    
+    
+
+  
+  
+  
+  
+  
+
+
+  
+
+  
+
+      
+    
+    
+
+  
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+      
+    
+
+      
+    
+
+    
+
+  
+
+  
+  
+
+      
+
+  
+
+  
+
+
+    
+
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+  
+Skip to content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    Why GitHub?
+                    
+
+
+
+Features →
+
+Code review
+Project management
+Integrations
+Actions
+Team management
+Social coding
+Documentation
+Code hosting
+
+
+Case Studies →
+Security →
+
+
+
+
+
+Enterprise
+
+
+
+
+                    Explore
+                    
+
+
+
+
+Explore GitHub →
+
+Learn & contribute
+
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+
+Connect with others
+
+Events
+Community forum
+GitHub Education
+
+
+
+
+
+Marketplace
+
+
+
+
+                    Pricing
+                    
+
+
+
+Plans →
+
+Compare plans
+Contact Sales
+
+
+Nonprofit →
+Education →
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+No suggested jump to results
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+Sign in
+Sign up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Watch
+  
+
+    159
+  
+
+
+
+
+      Star
+    
+
+      1,484
+    
+
+
+
+
+        Fork
+      
+
+      233
+    
+
+
+
+
+flutter/samples
+
+
+
+
+
+
+Code
+ 
+
+
+
+Pull requests
+4
+ 
+
+
+      Insights
+
+
+
+
+
+Permalink
+
+
+
+Join GitHub today
+GitHub is home to over 31 million developers working together to host and review code, manage projects, and build software together.
+Sign up
+
+
+
+
+
+
+Branch:
+master
+
+
+
+
+
+          Find file
+        
+        
+          Copy path
+        
+      
+
+samples/INDEX.md
+
+
+
+
+
+          2128608
+        
+        Jan 2, 2019
+      
+
+
+filiph
+Add the ScopedModel Counter sample (#41)
+
+
+
+
+4 contributors
+
+
+Users who have contributed to this file
+
+
+
+
+
+                RedBrogdon
+ 
+
+
+
+                roughike
+ 
+
+
+
+                filiph
+ 
+
+
+
+                burhanrashid52
+ 
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+Raw
+Blame
+History
+
+
+
+      98 lines (69 sloc)
+      
+    6.66 KB
+  
+
+
+A curated list of samples
+Contained in this list are sample apps, demos, and examples that can help you
+grow your Flutter skills. Some are maintained here by the Flutter team,
+but many have been created by the Flutter community and are kept in other repos
+in and out of GitHub.
+This is not an exhaustive list of samples, and just because because a project
+isn't listed here doesn't mean that it's not worth exploring. Similarly, while
+the Flutter team works to keep this list up to date, there are plenty of others
+created by the community, such as
+Awesome Flutter from @Solido.
+How-to Collections
+Flutter Examples  
+A collection of single-topic examples from Nishant Srivastava. These include
+everything from gradients to JSON to routing and more.
+Flutter Example Apps  
+Several dozen examples from Flutter GDE Pawan Kumar. These cover state
+management, Firebase, UI design, and many other topics. Each one comes with a
+YouTube video showing implementation.
+Flutter by Example  
+Twenty-odd samples detailing common tasks with Flutter: how to use text fields,
+streams and StreamBuilders, and more.
+Architecture / networking / backend
+Flutter Architectural Samples  
+Brian Egan's implementations of TodoMVC using a variety of state management and
+architectural approaches. If you'd like to see how an app built with
+flutter-redux is different from one using BLoC, this is a great place to
+start.
+jsonexample (Flutter team)
+A simple app showing three different approaches to deserializing JSON:
+hand-written constructors, json_serializable, and built_value.
+scoped_model_counter (Flutter team)
+The simplest possible app (the counter) using scoped_model
+for state management.
+UI
+Flutter UI Kit  
+Another sample from Flutter GDE Pawan Kumar, this repo includes a variety of
+polished UI examples.
+Flutter Challenges
+More a GitHub search result than a single repo, Matt Carroll's Flutter UI
+challenges showcase some amazing designs powered by Flutter. Make sure to check
+the accompanying YouTube video so you can watch Matt implement them.
+Full apps
+It's All Widgets!
+Created and maintained by the Flutter community, It's All Widgets collects
+links to apps built with Flutter. Many are open source and include links to
+their source code, so you can browse through the list until you find something
+that looks interesting, and then go see how it was built.
+inKino  
+An unofficial Finnkino client that shows movies and showtimes of Finnkino
+cinemas in Finland. It uses Redux, has a comprehensive set of tests, and shares
+40% of its code between the Flutter app and the AngularDart web app.
+It's currently available in the
+App Store,
+Play Store
+and as a Progressive Web App.
+FlutterFlip  
+A simple reversi clone built with Flutter. It showcases some implicit animations
+and how to move work off the UI thread into an isolate.
+WhatTodo  
+A simple todo app that tracks daily tasks, built using the BLoC Pattern. You can
+add projects, labels, and due dates to your tasks, and sort them using the same
+criteria.
+Demos
+Shrine (Flutter team)
+The Shrine demo app from the Flutter team. It's designed to showcase how apps
+can put their own spin on the Material Design components and how to use
+ScopedModel to maintain app state across screens.
+Flutter Gallery (Flutter team)
+The official Flutter Gallery. There's tons of stuff in here. Just tons.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+
+
+
+
+
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+
+
+
+
+
+
+
+    
+    You can’t perform that action at this time.
+  
+
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+
+
+
+
+
+
+
+
+
+
+  Press h to open a hovercard with more details.
+
+

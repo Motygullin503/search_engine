@@ -1,0 +1,189 @@
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Flutter Packages
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+Dart pub
+
+
+
+
+
+
+Getting Started:
+
+
+Using Packages
+Developing Packages and Plugins
+
+
+
+
+Using Packages
+Publishing a Package
+Overview
+
+
+
+
+
+
+Dart package manager
+
+
+Flutter
+Web
+All
+
+Flutter↗ makes it easy and fast to build beautiful mobile apps for iOS and Android.
+
+
+
+
+Top Flutter-compatible packages
+
+        Packages are sorted by the overall score. More information on ranking.
+      
+
+
+
+
+shared_preferences
+
+Flutter
+
+Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on Android.
+
+
+url_launcher
+
+Flutter
+
+Flutter plugin for launching a URL on Android and iOS. Supports web, phone, SMS, and email schemes.
+
+
+path_provider
+
+Flutter
+
+Flutter plugin for getting commonly used locations on the Android & iOS file systems, such as the temp and app data directories.
+
+
+image_picker
+
+Flutter
+
+Flutter plugin for selecting images from the Android and iOS image library, and taking new pictures with the camera.
+
+
+cloud_firestore
+
+Flutter
+
+Flutter plugin for Cloud Firestore, a cloud-hosted, noSQL database with live synchronization and offline support on Android and iOS.
+
+
+sqflite
+
+Flutter
+
+Flutter plugin for SQLite, a self-contained, high-reliability, embedded, SQL database engine.
+
+
+google_sign_in
+
+Flutter
+
+Flutter plugin for Google Sign-In, a secure authentication system for signing in with a Google account on Android and iOS.
+
+
+scoped_model
+
+Flutter
+
+A Widget that passes a Reactive Model to all of it's children
+
+
+firebase_auth
+
+Flutter
+
+Flutter plugin for Firebase Auth, enabling Android and iOS authentication using passwords, phone numbers and identity providers like Google, Facebook and Twitter.
+
+
+connectivity
+
+Flutter
+
+Flutter plugin for discovering the state of the network (WiFi & mobile/cellular) connectivity on Android and iOS.
+
+
+flutter_webview_plugin
+
+Flutter
+
+Plugin that allow Flutter to communicate with a native Webview.
+
+
+firebase_messaging
+
+Flutter
+
+Flutter plugin for Firebase Cloud Messaging, a cross-platform messaging solution that lets you reliably deliver messages on Android and iOS.
+
+
+device_info
+
+Flutter
+
+Flutter plugin providing detailed information about the device (make, model, etc.), and Android or iOS version the app is running on.
+
+
+cached_network_image
+
+Flutter
+
+Flutter library to load and cache network images. Can also be used with placeholder and error widgets.
+
+
+firebase_core
+
+Flutter
+
+Flutter plugin for Firebase Core, enabling connecting to multiple Firebase apps.
+
+
+
+More Flutter-compatible packages... Flutter-only packages...
+
+
+
+Dart language
+Terms
+Privacy
+Help
+
+Report an issue with this site
+

@@ -1,0 +1,1927 @@
+
+  
+    
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  Flutter · GitHub
+    
+    
+  
+  
+
+    
+    
+
+  
+  
+  
+  
+  
+
+    
+
+  
+
+  
+
+      
+    
+    
+
+  
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+      
+    
+
+      
+    
+
+    
+
+  
+
+  
+  
+
+
+
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+  
+Skip to content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    Why GitHub?
+                    
+
+
+
+Features →
+
+Code review
+Project management
+Integrations
+Actions
+Team management
+Social coding
+Documentation
+Code hosting
+
+
+Case Studies →
+Security →
+
+
+
+
+
+Enterprise
+
+
+
+
+                    Explore
+                    
+
+
+
+
+Explore GitHub →
+
+Learn & contribute
+
+Topics
+Collections
+Trending
+Learning Lab
+Open source guides
+
+Connect with others
+
+Events
+Community forum
+GitHub Education
+
+
+
+
+
+Marketplace
+
+
+
+
+                    Pricing
+                    
+
+
+
+Plans →
+
+Compare plans
+Contact Sales
+
+
+Nonprofit →
+Education →
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this organization
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+No suggested jump to results
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this organization
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this organization
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+Sign in
+Sign up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Flutter
+          
+
+
+
+
+
+https://flutter.io
+
+
+
+
+
+
+
+    Repositories
+    30
+
+
+
+      People
+      13
+
+
+
+      Projects
+      0
+
+
+
+
+
+
+
+
+Grow your team on GitHub
+GitHub is home to over 31 million developers working together. Join them to grow your own development teams, manage permissions, and collaborate on projects.
+Sign up
+
+
+
+
+        Pinned repositories
+        
+
+
+
+
+
+
+
+flutter
+
+
+
+          Flutter makes it easy and fast to build beautiful mobile apps.
+        
+
+
+            Dart
+            
+
+              52.7k
+            
+
+
+              5.6k
+            
+
+
+
+
+
+
+
+samples
+
+
+
+          A collection of Flutter examples and demos.
+        
+
+
+            Dart
+            
+
+              1.5k
+            
+
+
+              233
+            
+
+
+
+
+
+
+
+plugins
+
+
+
+          Plugins for Flutter, including FlutterFire, maintained by the Flutter team
+        
+
+
+            Dart
+            
+
+              3.9k
+            
+
+
+              1.5k
+            
+
+
+
+
+
+
+
+engine
+
+
+
+          The Flutter engine
+        
+
+
+            C++
+            
+
+              2.4k
+            
+
+
+              987
+            
+
+
+
+
+
+
+
+flutter-intellij
+
+
+
+          Flutter makes it easy and fast to build beautiful mobile apps.
+        
+
+
+            Java
+            
+
+              545
+            
+
+
+              80
+            
+
+
+
+
+
+
+
+website
+
+
+
+          Flutter web site
+        
+
+
+            CSS
+            
+
+              460
+            
+
+
+              611
+            
+
+
+
+
+
+
+
+
+
+
+
+
+Type:
+
+                All
+              
+
+
+Select type
+
+
+
+
+All
+
+
+
+Sources
+
+
+
+Forks
+
+
+
+Archived
+
+
+
+Mirrors
+
+
+
+
+
+Language:
+
+                  All
+                
+
+
+Select language
+
+
+
+
+All
+
+
+
+C
+
+
+
+C++
+
+
+
+CSS
+
+
+
+Dart
+
+
+
+Java
+
+
+
+Objective-C
+
+
+
+Python
+
+
+
+Shell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          engine
+ 
+
+
+
+          The Flutter engine
+        
+
+
+
+
+
+
+
+
+
+            c-plus-plus
+          
+
+
+
+
+          C++
+        
+
+
+          2,410
+        
+
+
+          987
+        
+
+BSD-3-Clause
+        
+
+
+        Updated Feb 10, 2019
+    
+
+
+
+
+
+          plugins
+ 
+
+
+
+          Plugins for Flutter, including FlutterFire, maintained by the Flutter team
+        
+
+
+
+
+
+
+
+
+
+            android
+          
+
+            plugin
+          
+
+            dart
+          
+
+            ios
+          
+
+            flutter
+          
+
+            flutter-plugin
+          
+
+
+
+
+          Dart
+        
+
+
+          3,911
+        
+
+
+          1,465
+        
+
+BSD-3-Clause
+        
+
+
+        Updated Feb 10, 2019
+    
+
+
+
+
+
+          flutter
+ 
+
+
+
+          Flutter makes it easy and fast to build beautiful mobile apps.
+        
+
+
+
+
+
+
+
+
+
+            android
+          
+
+            dart
+          
+
+            ios
+          
+
+            mobile
+          
+
+            material-design
+          
+
+
+
+
+          Dart
+        
+
+
+          52,726
+        
+
+
+          5,556
+        
+
+
+
+        Updated Feb 10, 2019
+    
+
+
+
+
+
+          devtools
+ 
+
+
+
+          Performance tools for Flutter.
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          88
+        
+
+
+          13
+        
+
+BSD-3-Clause
+        
+
+
+        Updated Feb 9, 2019
+    
+
+
+
+
+
+          website
+ 
+
+
+
+          Flutter web site
+        
+
+
+
+
+
+
+
+
+
+            dart
+          
+
+            website
+          
+
+            flutter
+          
+
+
+
+
+          CSS
+        
+
+
+          460
+        
+
+
+          611
+        
+
+          2 issues
+          need help
+        
+
+        Updated Feb 9, 2019
+    
+
+
+
+
+
+          buildroot
+ 
+
+
+
+          Build environment for the Flutter engine
+        
+
+
+
+
+
+
+
+
+
+
+          Python
+        
+
+
+          23
+        
+
+
+          60
+        
+
+
+
+        Updated Feb 9, 2019
+    
+
+
+
+
+
+          ios_add2app
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+          Objective-C
+        
+
+
+          8
+        
+
+
+          1
+        
+
+BSD-3-Clause
+        
+
+
+        Updated Feb 9, 2019
+    
+
+
+
+
+
+          goldens
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+          Shell
+        
+
+
+          8
+        
+
+
+          11
+        
+
+BSD-3-Clause
+        
+
+
+        Updated Feb 9, 2019
+    
+
+
+
+
+
+          samples
+ 
+
+
+
+          A collection of Flutter examples and demos.
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          1,484
+        
+
+
+          233
+        
+
+
+
+        Updated Feb 8, 2019
+    
+
+
+
+
+
+          flutter-intellij
+ 
+
+
+
+          Flutter makes it easy and fast to build beautiful mobile apps.
+        
+
+
+
+
+
+
+
+
+
+            java
+          
+
+            intellij-plugin
+          
+
+            flutter
+          
+
+
+
+
+          Java
+        
+
+
+          545
+        
+
+
+          80
+        
+
+          2 issues
+          need help
+        
+
+        Updated Feb 8, 2019
+    
+
+
+
+
+
+          flutter_markdown
+ 
+
+
+
+          A markdown renderer for Flutter.
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          184
+        
+
+
+          49
+        
+
+
+
+        Updated Feb 8, 2019
+    
+
+
+
+
+
+          infra
+ 
+
+
+
+          Contains configuration and tools related to Flutter's build infrastructure.
+        
+
+
+
+
+
+
+
+
+
+
+          Python
+        
+
+
+          1
+        
+
+
+          2
+        
+
+BSD-3-Clause
+        
+
+
+        Updated Feb 7, 2019
+    
+
+
+
+
+
+          udacity-course
+ 
+
+
+
+          Build native mobile apps with Flutter
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          654
+        
+
+
+          946
+        
+
+BSD-3-Clause
+        
+
+
+        Updated Feb 7, 2019
+    
+
+
+
+
+
+          assets-for-api-docs
+ 
+
+
+
+          Static assets for embedding into docs.flutter.io
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          8
+        
+
+
+          15
+        
+
+
+
+        Updated Jan 29, 2019
+    
+
+
+
+
+
+          packages
+ 
+
+
+
+          A collection of useful packages maintained by the Flutter team
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          49
+        
+
+
+          12
+        
+
+BSD-3-Clause
+        
+
+
+        Updated Jan 25, 2019
+    
+
+
+
+
+
+          codelabs
+ 
+
+
+
+          Flutter codelab examples
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          7
+        
+
+
+          2
+        
+
+
+
+        Updated Jan 15, 2019
+    
+
+
+
+
+
+          friendlychat-steps
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          217
+        
+
+
+          113
+        
+
+BSD-3-Clause
+        
+
+
+        Updated Jan 14, 2019
+    
+
+
+
+
+
+          sentry
+ 
+
+
+
+          A pure Dart Sentry.io client.
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          80
+        
+
+
+          24
+        
+
+
+
+        Updated Jan 9, 2019
+    
+
+
+
+
+
+          scroll_overlay
+ 
+
+
+
+          Overlay a platform scroll view over the Flutter view.
+        
+
+
+
+
+
+
+
+
+
+
+          Objective-C
+        
+
+
+          12
+        
+
+
+          7
+        
+
+
+
+        Updated Dec 31, 2018
+    
+
+
+
+
+
+          plugin_tools
+ 
+
+
+
+          Productivity utils for hosting multiple plugins within one repository.
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          7
+        
+
+
+          12
+        
+
+BSD-3-Clause
+        
+
+
+        Updated Dec 31, 2018
+    
+
+
+
+
+
+          base
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+          C++
+        
+
+
+          7
+        
+
+
+          6
+        
+
+
+
+        Updated Dec 11, 2018
+    
+
+
+
+
+
+          flutter_image
+ 
+
+
+
+          Image utilities for Flutter: providers, effects, and more
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          58
+        
+
+
+          11
+        
+
+
+
+        Updated Nov 24, 2018
+    
+
+
+
+
+
+          crashy
+ 
+
+
+
+          Sample Flutter app that demonstrates how to capture and report errors
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          49
+        
+
+
+          8
+        
+
+
+
+        Updated Oct 5, 2018
+    
+
+
+
+
+
+          css_colors
+ 
+
+
+
+          Defines constants for the CSS Colors
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          4
+        
+
+
+          3
+        
+
+
+
+        Updated Aug 28, 2018
+    
+
+
+
+
+
+          cupertino_icons
+ 
+
+
+
+          Default icons asset used by Flutter's Cupertino widgets
+        
+
+
+
+
+
+
+
+
+
+
+          29
+        
+
+
+          4
+        
+
+MIT
+        
+
+
+        Updated Jul 25, 2018
+    
+
+
+
+
+
+          git
+ 
+
+          Forked from git-for-windows/git
+
+
+
+
+          A fork of Git containing Windows-specific patches.
+        
+
+
+
+
+
+
+
+
+
+
+          C
+        
+
+
+          1
+        
+
+
+          14,412
+        
+
+
+
+        Updated Dec 18, 2017
+    
+
+
+
+
+
+          material_icons_font
+ 
+
+
+
+          Default icons asset used by Flutter's Material widgets
+        
+
+
+
+
+
+
+
+
+
+
+          2
+        
+
+CC-BY-4.0
+        
+
+
+        Updated Oct 26, 2017
+    
+
+
+
+
+
+          oss_project_template
+ 
+
+
+
+          The project template for new repos in the Flutter org
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          5
+        
+
+
+          7
+        
+
+
+
+        Updated Sep 13, 2017
+    
+
+
+
+
+
+          dashboard_box
+ Archived
+
+
+
+
+          [obsolete] Scripts for Flutter's performance lab and dashboard
+        
+
+
+
+
+
+
+
+
+
+
+          Dart
+        
+
+
+          1
+        
+
+
+          7
+        
+
+
+
+        Updated May 19, 2017
+    
+
+
+
+
+
+          buildbot
+ 
+
+
+
+          A repository for controlling Travis build bots
+        
+
+
+
+
+
+
+
+
+
+
+          Shell
+        
+
+
+          6
+        
+
+
+          6
+        
+
+
+
+        Updated Feb 18, 2016
+    
+
+
+
+
+
+
+
+
+
+Top languages
+
+
+Dart
+
+
+
+Shell
+
+
+
+C++
+
+
+
+Python
+
+
+
+Objective-C
+
+
+
+
+
+
+Most used topics
+
+
+
+              dart
+            
+
+              flutter
+            
+
+              android
+            
+
+              ios
+            
+
+
+
+
+
+
+
+            13
+            
+
+People
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+
+
+
+
+
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+
+
+
+
+
+
+
+    
+    You can’t perform that action at this time.
+  
+
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+
+
+
+
+
+
+
+
+
+
+  Press h to open a hovercard with more details.
+
+

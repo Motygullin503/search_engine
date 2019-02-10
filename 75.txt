@@ -1,0 +1,877 @@
+
+  
+  
+  
+  
+  Preparing an iOS App for Release  - Flutter 
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+Docs
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+Showcase
+
+
+Community
+
+
+
+
+
+
+
+
+
+Get started
+
+
+
+
+      Flutter 1.0 has been released!
+      Learn more.
+    
+
+      Help improve Flutter! 
+      Take our survey.
+    
+
+
+
+
+
+Get started
+
+
+1. Install
+
+2. Set up an editor
+
+3. Test drive
+
+4. Write your first app
+
+5. Learn more
+
+From another platform?
+    
+
+
+Flutter for Android devs
+
+Flutter for iOS devs
+
+Flutter for React Native devs
+
+Flutter for web devs
+
+Flutter for Xamarin.Forms devs
+
+
+
+Dart language overview
+
+
+
+Samples & tutorials
+
+
+Sample apps on GitHub
+
+Cookbook
+
+Codelabs
+
+Tutorials
+
+
+
+Development
+
+
+User interface
+    
+
+
+Introduction to Widgets
+
+Building layouts
+    
+
+
+Layouts in Flutter
+
+
+Tutorial
+
+
+Box constraints
+
+
+
+
+Adding interactivity
+
+Assets and images
+
+Navigation & routing
+
+Animations
+    
+
+
+Introduction
+
+
+Overview
+
+
+Tutorial
+
+
+Hero animations
+
+
+Staggered animations
+
+
+
+
+Advanced UI
+    
+
+
+Slivers
+
+
+Gestures
+
+
+
+
+Widget catalog
+
+
+
+Data & backend
+    
+
+
+State management
+    
+
+
+Introduction
+
+
+Think declaratively
+
+
+Ephemeral vs app state
+
+
+Simple app state management
+
+
+Options
+
+
+
+
+JSON and serialization
+
+Firebase
+
+
+
+Accessibility & internationalization
+    
+
+
+Accessibility
+
+Internationalization
+
+
+
+Platform integration
+    
+
+
+Writing platform-specific code
+
+
+
+Packages & plugins
+    
+
+
+Using packages
+
+Developing packages & plugins
+
+Background processes
+
+Package site
+
+
+
+Tools & techniques
+    
+
+
+Android Studio / IntelliJ
+
+Visual Studio Code
+
+Flutter SDK
+    
+
+
+Upgrading
+
+
+Archive
+
+
+
+
+Hot reload
+
+Code formatting
+
+Widget inspector
+
+
+
+
+Testing & optimization
+
+
+Debugging
+
+Using OEM debuggers
+
+Flutter's build modes
+
+Testing
+
+Performance best practices
+
+Performance profiling
+
+
+
+Deployment
+
+
+Creating flavors for Flutter
+
+Build and release for Android
+
+Build and release for iOS
+
+Continuous deployment with fastlane
+
+
+
+Resources
+
+
+Dart resources
+
+Inside Flutter
+
+Technical overview
+
+Technical videos for learning Flutter
+
+FAQ
+
+
+
+Reference
+
+
+Widget index
+
+API reference
+
+Package site
+
+
+
+
+
+
+    Contents
+    
+    
+
+Preliminaries
+Register your app on App Store Connect
+
+Register a Bundle ID
+Create an application record on App Store Connect
+
+
+Review Xcode project settings
+Add an App Icon
+Create a build archive
+Release your app on TestFlight
+Release your app to the App Store
+Troubleshooting
+
+
+
+
+
+
+
+
+
+
+
+
+Preparing an iOS App for Release
+
+
+
+    Contents
+    
+
+Preliminaries
+Register your app on App Store Connect
+
+Register a Bundle ID
+Create an application record on App Store Connect
+
+
+Review Xcode project settings
+Add an App Icon
+Create a build archive
+Release your app on TestFlight
+Release your app to the App Store
+Troubleshooting
+
+
+This guide provides a step-by-step walkthrough of releasing a Flutter app to
+the App Store and TestFlight.
+For information on obfuscating Dart code, see Obfuscating Dart
+Code.
+
+Preliminaries
+Before beginning the process of releasing your app, ensure that it meets
+Apple’s App Review Guidelines.
+In order to publish your app to the App Store, you’ll need to enroll in the
+Apple Developer Program. You can read more about the various
+membership options in Apple’s Choosing a Membership
+guide.
+
+Register your app on App Store Connect
+App Store Connect (formerly iTunes Connect) is where you’ll
+manage your app’s life cycle. You will define your app name and description,
+add screenshots, set pricing, and manage releases to the App Store
+and TestFlight.
+Registering your app involves two steps: registering a unique Bundle ID, and
+creating an application record on App Store Connect.
+For a detailed overview of App Store Connect, see the App Store Connect
+guide.
+
+Register a Bundle ID
+Every iOS application is associated with a Bundle ID, a unique identifier
+registered with Apple. To register a Bundle ID for your app, follow these
+steps:
+
+Open the App IDs page of your developer account.
+Click + to create a new Bundle ID.
+Enter an app name, select Explicit App ID, and enter an ID.
+Select the services your app will use, then click Continue.
+On the next page, confirm the details and click Register to register
+your Bundle ID.
+
+
+Create an application record on App Store Connect
+Next, you’ll register your app on App Store Connect:
+
+Open App Store Connect in your browser.
+On the App Store Connect landing page, click My Apps.
+Click + in the top-left corner of the My Apps page, then select
+New App.
+Fill in your app details in the form that appears. In the Platforms section,
+ensure that iOS is checked. Since Flutter does not currently support tvOS,
+leave that checkbox unchecked. Click Create.
+Navigate to the application details for your app and select App
+Information from the sidebar.
+In the General Information section, select the Bundle ID you registered in
+the preceding step.
+
+For a detailed overview, see Add an app to your account.
+
+Review Xcode project settings
+In this step, you’ll review the most important settings in the Xcode workspace.
+For detailed procedures and descriptions, see Prepare for app distribution.
+Navigate to your target’s settings in Xcode:
+
+In Xcode, open Runner.xcworkspace in your app’s ios folder.
+To view your app’s settings, select the Runner project in the Xcode
+project navigator. Then, in the main view sidebar, select the Runner
+target.
+Select the General tab.
+
+Next, you’ll verify the most important settings:
+In the Identity section:
+
+
+Display Name: the name of the app to be displayed on the home screen and
+elsewhere.
+
+Bundle Identifier: the App ID you registered on App Store Connect.
+
+In the Signing section:
+
+
+Automatically manage signing: whether Xcode should automatically manage
+app signing and provisioning. This is set true by default, which should
+be sufficient for most apps. For more complex scenarios, see the Code
+Signing Guide.
+
+Team: select the team associated with your registered Apple Developer
+account. If required, select Add Account…, then update this setting.
+
+In the Deployment Info section:
+
+
+Deployment Target: the minimum iOS version your app will support.
+Flutter supports iOS 8.0 and later. If your app includes Objective-C or
+Swift code that makes use of APIs that were unavailable in iOS 8, update
+this setting appropriately.
+
+The General tab of your project settings should resemble the following:
+
+For a detailed overview of app signing, see Create, export, and delete signing
+certificates.
+
+Add an App Icon
+When a new Flutter app is created, a placeholder icon set is created. In this
+step, you’ll replace these placeholder icons with your app’s icons:
+
+Review the iOS App Icon guidelines.
+In the Xcode project navigator, select Assets.xcassets in the Runner
+folder. Update the placeholder icons with your own app icons.
+Verify the icon has been replaced by running your app using flutter run.
+
+
+Create a build archive
+In this step, you’ll create a build archive and upload your build to App Store
+Connect.
+During development, you’ve been building, debugging, and testing with debug
+builds. When you’re ready to ship your app to users on the App Store or
+TestFlight, you’ll need to prepare a release build.
+On the command line, follow these steps in your application directory:
+
+Run flutter build ios to create a release build (flutter build defaults to --release).
+To ensure that Xcode refreshes the release mode configuration, close and
+re-open your Xcode workspace. For Xcode 8.3 and later, this step is not
+required.
+
+In Xcode, configure the app version and build:
+
+In Xcode, open Runner.xcworkspace in your app’s ios folder.
+Select Product > Scheme > Runner.
+Select Product > Destination > Generic iOS Device.
+Select Runner in the Xcode project navigator, then select the Runner
+target in the settings view sidebar.
+In the Identity section, update the Version to the user-facing
+version number you wish to publish.
+In the Identity section, update the Build identifier to a unique
+build number used to track this build on App Store Connect. Each upload requires a
+unique build number.
+
+Finally, create a build archive and upload it to App Store Connect:
+
+Select Product > Archive to produce a build archive.
+In the sidebar of the Xcode Organizer window, select your iOS app, then
+select the build archive you just produced.
+Click the Validate… button. If any issues are reported, address them
+and produce another build. You can reuse the same build ID until you upload
+an archive.
+After the archive has been successfully validated, click Upload to App
+Store…. You can follow the status of your build in the Activities
+tab of your app’s details page on App Store Connect.
+
+You should receive an email within 30 minutes notifying you that your build has
+been validated and is available to release to testers on TestFlight. At this
+point you can choose whether to release on TestFlight, or go ahead and release
+your app to the App Store.
+For more details, see Upload an app to App Store Connect.
+
+Release your app on TestFlight
+TestFlight allows developers to push their apps to internal and
+external testers. In this optional step, you’ll release your build on
+TestFlight.
+
+Navigate to the TestFlight tab of your app’s application details page on
+App Store Connect.
+Select Internal Testing in the sidebar.
+Select the build to publish to testers, then click Save.
+Add the email addresses of any internal testers. You can add additional
+internal users in the Users and Roles page of App Store Connect, available from
+the dropdown menu at the top of the page.
+
+For more details, see Distribute an app using TestFlight.
+
+Release your app to the App Store
+When you’re ready to release your app to the world, follow these steps to
+submit your app for review and release to the App Store:
+
+Select Pricing and Availability from the sidebar of your app’s
+application details page on App Store Connect and
+complete the required information.
+Select the status from the sidebar. If this is the first release of this
+app, its status will be 1.0 Prepare for Submission. Complete all
+required fields.
+Click Submit for Review.
+
+Apple will notify you when their app review process is complete. Your app will
+be released according to the instructions you specified in the Version
+Release section.
+For more details, see Distribute an app through the App Store.
+
+Troubleshooting
+The Distribute your app guide provides a detailed overview of
+the process of releasing an app to the App Store.
+
+
+
+
+
+
+
+
+
+
+
+
+flutter-dev@
+terms
+security
+privacy
+español
+社区中文资源
+
+
+            Except as otherwise noted,
+            this work is licensed under a
+            Creative
+            Commons Attribution 4.0 International License,
+            and code samples are licensed under the BSD License.
+          
+
+
+
+
+
